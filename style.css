@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Navbar CSS */
 .img-starbucks {
     width: 50px;
     height: 50px;
@@ -9,6 +10,10 @@ body {
 
 .icon-size {
     font-size: 1.3rem;
+}
+
+.margin-custom {
+    margin-right: 5.7rem;
 }
 
 .navbar-brand.pe-2:hover {
@@ -22,4 +27,121 @@ a.nav-link.active:hover {
 .text-spacing {
     letter-spacing: 1.5px;
 }
+
+/* Card-1 CSS */
+.margin-card {
+    margin: 2rem 9.5rem 2rem 9.5rem;
+}
+
+.bg-color {
+    background-color: #d40032;
+}
+
+.padding-custom {
+    padding: 32px 40px 32px 40px !important;
+} 
+
+.text-custom {
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Card-2 CSS */
+.bg-color-1 {
+    background-color: #06ce8d;
+}
+
+.text-color {
+    color: #223531;
+}
+
+.text-color-1 {
+    color:#184a31;
+}
+
+.custom-border {
+    border: 1px solid hsl(164, 31%, 17%) !important;
+}
+
+/* Card-3 CSS */
+.bg-color-2 {
+    background-color: #8e0032;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Card-1 CSS Media Queries */
+@media (max-width: 768px) {
+    .margin-card {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .text-custom {
+        font-size: 24px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .padding-custom {
+        padding: 32px 16px 32px 16px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .margin-card {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .text-custom {
+        font-size: 24px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .padding-custom {
+        padding: 32px 24px 32px 24px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .margin-card {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .text-custom {
+        font-size: 24px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .padding-custom {
+        padding: 32px 40px 32px 40px !important;
+    }
+}
+
+
+
+
 

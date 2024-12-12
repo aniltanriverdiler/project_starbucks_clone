@@ -25,98 +25,196 @@
   </head>
   <body>
     <!--  Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-light px-5 py-4 shadow-sm">
-      <div class="container-fluid">
-        <!-- Logo -->
-        <a href="index.html">
-          <img
-            src="assets/images/starbucks-favicon.png"
-            class="img-starbucks me-5"
-            alt="starbucks-icon"
-          />
-        </a>
-        <!-- Toggle Button -->
-        <button
-          class="navbar-toggler shadow-none border-0"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Side Bar -->
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <!-- Side Bar Header -->
-          <div class="offcanvas-header border-bottom py-4">
-            <button
-              type="button"
-              class="btn-close shadow-none me-2"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <!-- Side Bar Body -->
-          <div class="offcanvas-body pt-5 pt-lg-0">
-            <ul
-              class="navbar-nav justify-content-start align-items-lg-center align-items-start flex-grow-1 pe-3"
-            >
-              <li class="nav-item mb-4 mb-lg-0">
-                <a
-                  class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
-                  href="#"
-                  >Menu</a
-                >
-              </li>
-              <li class="nav-item mb-4 mb-lg-0">
-                <a
-                  class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
-                  href="#"
-                  >Rewards</a
-                >
-              </li>
-              <li class="nav-item mb-4 mb-lg-0">
-                <a
-                  class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
-                  href="#"
-                  >Gift Cards</a
-                >
-              </li>
-            </ul>
-            <hr class="mb-4 mb-lg-0" />
-            <!-- Login / Sign in Button -->
-            <div
-              class="d-flex flex-column-reverse flex-lg-row justify-content-start align-items-lg-center align-items-start gap-3"
-            >
-              <a
-                class="nav-link active d-flex align-items-center me-5"
-                href="#find"
-                ><i class="bi bi-geo-alt-fill icon-size me-2"></i
-                ><span class="fw-semibold">Find a store</span></a
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light px-5 py-4 shadow-sm">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a href="index.html">
+            <img
+              src="assets/images/starbucks-favicon.png"
+              class="img-starbucks me-5"
+              alt="starbucks-icon"
+            />
+          </a>
+          <!-- Toggle Button -->
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Side Bar -->
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <!-- Side Bar Header -->
+            <div class="offcanvas-header border-bottom py-4">
+              <button
+                type="button"
+                class="btn-close shadow-none me-2"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- Side Bar Body -->
+            <div class="offcanvas-body pt-5 pt-lg-0">
+              <ul
+                class="navbar-nav justify-content-start align-items-lg-center align-items-start flex-grow-1 pe-3"
               >
-              <div class="d-flex gap-3">
+                <li class="nav-item mb-4 mb-lg-0">
+                  <a
+                    class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
+                    href="#"
+                    >Menu</a
+                  >
+                </li>
+                <li class="nav-item mb-4 mb-lg-0">
+                  <a
+                    class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
+                    href="#"
+                    >Rewards</a
+                  >
+                </li>
+                <li class="nav-item mb-4 mb-lg-0">
+                  <a
+                    class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
+                    href="#"
+                    >Gift Cards</a
+                  >
+                </li>
+              </ul>
+              <hr class="mb-4 mb-lg-0" />
+              <!-- Login / Sign in Button -->
+              <div
+                class="d-flex flex-column-reverse flex-lg-row justify-content-start align-items-lg-center align-items-start gap-3"
+              >
                 <a
-                  href="#sign-in"
-                  class="btn btn-light text-black fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4"
-                  >Sign in</a
+                  class="nav-link active d-flex align-items-center me-5"
+                  href="#find"
+                  ><i class="bi bi-geo-alt-fill icon-size me-2"></i
+                  ><span class="fw-semibold">Find a store</span></a
                 >
-                <a
-                  href="#join"
-                  class="btn btn-dark text-white fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4 me-5 pe-3"
-                  >Join now</a
-                >
+                <div class="d-flex gap-3">
+                  <a
+                    href="#sign-in"
+                    class="btn btn-light text-black fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4"
+                    >Sign in</a
+                  >
+                  <a
+                    href="#join"
+                    class="btn btn-dark text-white fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4 margin-custom"
+                    >Join now</a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </nav>
+    </header>
+
+    <!--  Gift Card-1 Section -->
+    <section class="margin-card">
+      <div class="row g-0">
+        <div class="col-12 col-lg-6">
+          <img
+            src="assets/images/for-life-image.jpg"
+            class="img-fluid"
+            alt="gift-image"
+          />
+        </div>
+        <div
+          class="col-12 col-lg-6 flex-column padding-custom bg-color d-flex justify-content-center align-items-center"
+        >
+          <h1 class="text-white text-center text-custom mx-4 mb-4 px-3">
+            Our holiday game is here to play
+          </h1>
+          <p class="text-white text-center fw-semibold fs-4 mx-4 px-2 mb-4">
+            Pop in for chances to win $20,000 in Delta Gift Cards or Starbucks
+            for Life!*
+          </p>
+          <a
+            href="#play"
+            class="btn text-white fw-medium text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
+            >Play now</a
+          >
+        </div>
       </div>
-    </nav>
+    </section>
+    
+    <!--  Gift Card-2 Section -->
+    <section class="margin-card">
+      <div class="row g-0">
+        <div
+          class="col-12 col-lg-6 flex-column padding-custom bg-color-1 d-flex justify-content-center align-items-center order-2 order-lg-1 order-md-2 order-sm-2"
+        >
+          <h1 class="text-color text-center text-custom mx-4 mb-4 px-3">
+            Joy in every sip
+          </h1>
+          <p class="text-color-1 text-center fw-semibold fs-4 mx-4 px-3 mb-4">
+            Taste the magic of the holidays with a Peppermint Mocha, Caramel Brulée Latte or Chestnut Praline Latte.
+          </p>
+          <a
+            href="#play"
+            class="btn text-color-1 fw-medium text-decoration-none custom-border px-3 py-1 rounded-4 "
+            >Order now</a
+          >
+        </div>
+        <div class="col-12 col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
+          <img
+            src="assets/images/green-cup.jpg"
+            class="img-fluid"
+            alt="gift-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--  Gift Card-3 Section -->
+    <section class="margin-card">
+      <div class="row g-0">
+        <div class="col-12 col-lg-6">
+          <img
+            src="assets/images/christmas-image.jpg"
+            class="img-fluid"
+            alt="gift-image"
+          />
+        </div>
+        <div
+          class="col-12 col-lg-6 flex-column padding-custom bg-color-2 d-flex justify-content-center align-items-center"
+        >
+          <h1 class="text-white text-center text-custom mx-4 mb-4 px-3">
+            Merry last-minute gifts
+          </h1>
+          <p class="text-white text-center fw-semibold fs-4 mx-4 px-2 mb-4">
+            There’s still time to send a holiday Starbucks eGift. Choose your favorite design and share some joy via text, social media or email.
+          </p>
+          <a
+            href="#play"
+            class="btn text-white fw-medium text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
+            >Send an eGift</a
+          >
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    
+
+
+
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
