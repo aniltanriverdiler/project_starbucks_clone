@@ -96,7 +96,13 @@ a.nav-link.active:hover {
     font-weight: 700;
 }
 
-/* Gift Card-4 CSS */
+/* Brand Description CSS */
+.brand-text {
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 600;
+}
+
 
 
 
