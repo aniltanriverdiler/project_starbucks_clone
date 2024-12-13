@@ -28,7 +28,7 @@ a.nav-link.active:hover {
     letter-spacing: 1.5px;
 }
 
-/* Card-1 CSS */
+/* Gift Card-1 CSS */
 .margin-card {
     margin: 2rem 9.5rem 2rem 9.5rem;
 }
@@ -48,7 +48,7 @@ a.nav-link.active:hover {
     line-height: 1.2;
 }
 
-/* Card-2 CSS */
+/* Gift Card-2 CSS */
 .bg-color-1 {
     background-color: #06ce8d;
 }
@@ -62,18 +62,50 @@ a.nav-link.active:hover {
 }
 
 .custom-border {
-    border: 1px solid hsl(164, 31%, 17%) !important;
+    border: 1px solid hsl(164, 31%, 17%);
 }
 
-/* Card-3 CSS */
+/* Gift Card-3 CSS */
 .bg-color-2 {
     background-color: #8e0032;
 }
+
+/* Small Card CSS */
+.bg-color-3 {
+    background-color:#f1f0eb;
+}
+
+.text-color-2 {
+    color: #03644c;
+}
+
+.text-color-3 {
+    color: #4b866d;
+}
+
+.text-color-4 {
+    color: #0e724f;
+}
+
+.custom-border-2 {
+    border: 1px solid #0e724f;
+}
+
+.text-custom-2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+
 
 
 
 
  
+
+
 
 
 
