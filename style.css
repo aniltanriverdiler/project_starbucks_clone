@@ -112,7 +112,15 @@ a.nav-link.active:hover {
      padding: 16px 157px;
 }
 
+.menu-list-padding {
+     padding: 40px 157px;
+}
 
+.menu-text {
+    font-weight: 500;
+    opacity: 0.75;
+    font-size: 1.1rem;
+}
 
 
 
