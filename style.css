@@ -113,7 +113,7 @@ a.nav-link.active:hover {
 }
 
 .menu-list-padding {
-     padding: 40px 157px;
+     padding: 40px 200px 40px 157px;
 }
 
 .menu-text {
@@ -125,11 +125,17 @@ a.nav-link.active:hover {
 .img-size {
     width: 112px;
     height: 112px;
+} 
+
+/* Fixed Bottom Bar: Location and Icon Styles */
+.bottom-bar-bg {
+    background-color: #1e3932;
 }
 
-.menu-img-margin {
-    margin-right: 15rem;
+.text-color {
+    color: #00ab61;
 }
+
 
 
 
@@ -227,6 +233,7 @@ a.nav-link.active:hover {
     }
 }
 
+
 /* Footer CSS Media Queries */
 @media (max-width: 768px) {
     .accordion-fs {
@@ -259,6 +266,26 @@ a.nav-link.active:hover {
         margin-right: 0rem;
     }
 }
+
+
+/* Menu Page Media Queries */
+@media (max-width: 1024px) {
+    .menu-list-display {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .menu-list-display {
+        display: block;
+    }
+
+    /* .menu-img-padding {
+        padding: 0 157px 40px 40px !important;
+    } */
+}
+
+
 
 
  
