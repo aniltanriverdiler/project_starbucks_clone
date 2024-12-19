@@ -109,11 +109,11 @@ a.nav-link.active:hover {
 }
 
 .menu-padding {
-     padding: 16px 157px;
+     padding: 16px 146px;
 }
 
 .menu-list-padding {
-     padding: 40px 200px 40px 157px;
+     padding: 40px 200px 40px 146px;
 }
 
 .menu-text {
@@ -171,14 +171,6 @@ a.nav-link.active:hover {
 .text-black.text-decoration-none.fs-list:hover {
     text-decoration: underline !important;
 }
-
-
-
-
-
-
-
-
 
 
 /* Card-1 CSS Media Queries */
@@ -280,14 +272,56 @@ a.nav-link.active:hover {
         display: block;
     }
 
-    /* .menu-img-padding {
-        padding: 0 157px 40px 40px !important;
-    } */
+    .menu-list-padding {
+        padding: 40px 200px 40px 146px;
+   } 
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img-size {
+        width: 72px;
+        height: 72px;
+    } 
+  
+    .menu-padding {
+    padding: 16px 122px;
+    }
 
+    .menu-list-padding {
+        padding: 40px 0 40px 122px;
+   }
+}
 
+@media (min-width: 375px) and (max-width: 768px) {
+    .img-size {
+        width: 72px;
+        height: 72px;
+    } 
 
+    .menu-padding {
+        padding: 16px 24px;
+    }
+
+    .menu-list-padding {
+        padding: 40px 0 40px 24px;
+    }
+   
+    .custom-col {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+ 
+@media (min-width: 1024px) and (max-width: 1024px) {
+    .menu-img-padding {
+        padding: 0 80px 0 110px !important;
+   }
+
+   .img-size {
+    width: 112px;
+    height: 112px;
+   } 
+}
  
 
 
