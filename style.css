@@ -136,6 +136,33 @@ a.nav-link.active:hover {
     color: #00ab61;
 }
 
+/* Featured Page Styles */
+.heading-text {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #1e3932;
+}
+/* Featured Page Gift Card Styles */
+.text-custom-3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ .bg-color-4 {
+    background-color: #1e3932;
+}
+
+
+
+
+
+  
+
+
+
+
+
 
 
 
@@ -305,11 +332,6 @@ a.nav-link.active:hover {
     .menu-list-padding {
         padding: 40px 0 40px 24px;
     }
-   
-    .custom-col {
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
-    }
 }
  
 @media (min-width: 1024px) and (max-width: 1024px) {
@@ -317,10 +339,33 @@ a.nav-link.active:hover {
         padding: 0 80px 0 110px !important;
    }
 
-   .img-size {
-    width: 112px;
-    height: 112px;
+    .img-size {
+        width: 112px;
+        height: 112px;
    } 
+}
+
+
+/* Featured Page CSS Media Queries */
+@media (max-width: 992px) {
+    .heading-text {
+        font-weight: 700;
+        font-size: 28px;
+        letter-spacing: 2px;
+        color: #1e3932;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .custom-col {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+ 
 }
  
 
