@@ -153,6 +153,117 @@ a.nav-link.active:hover {
     background-color: #1e3932;
 }
 
+/* Rewards Page Styles */
+  .green-menu-custom {
+    background-color: #1e3932;
+    box-shadow: 0 4px 4px 0 #0000001f,0 0 2px 0 #0000003d;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    padding: 0 146px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .green-menu-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin: 0;
+  }
+
+  .bg-star {
+    background-color: rgb(212, 233, 226);
+    background-image: url(assets/images/bg-star.png);
+    background-position: 50%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  
+  .star-text-padding {
+    padding: 275px 146px;
+  }
+
+  .icon-size-1 {
+    width: 48px;
+    height: 48px;
+  }
+
+  .bg-rewards {
+    background-color: hsl(160deg 32% 87% / 33%);
+  }
+
+  .breakfast-bg {
+    background-color: #d4e9e2;
+    box-shadow: inset 0 7px 9px -7px #00000024;
+  }
+
+  .breakfast-img {
+    width: 375px;
+    height: 211px;
+  }
+
+  .icon-size-2 {
+    width: 112px;
+    height: 112px;
+  }
+
+  .bg-payment {
+    background-color: #f1f0eb;
+  }
+
+  .icon-size-3 {
+    width: 112px;
+    height: 158px;
+  }
+
+  .icon-size-4 {
+    width: 190px;
+    height: 85px;
+  }
+
+  .bg-texture {
+    position: relative;
+    padding: 32px;
+    z-index: 1;
+  }
+
+  .bg-texture::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('assets/images/texture.png') no-repeat center center;
+    background-size: cover;
+    z-index: -2;
+  }
+
+  .bg-texture::after {
+    content: "";
+    position: absolute;
+    top: 32px;  /* Padding etkisi */
+    left: 32px;
+    width: calc(100% - 64px);  /* Padding hesaba katıldı */
+    height: calc(100% - 64px);
+    background-color: #d4e9e2;  /* Yarı saydam arka plan */
+    z-index: -1;
+  }
+
+  
+
+
+
+  
+
+
 
 
 
@@ -364,8 +475,49 @@ a.nav-link.active:hover {
 }
 
 
-@media (min-width: 1024px) and (max-width: 1024px) {
- 
+/* Rewards Page CSS Media Queries */
+@media (min-width: 768px) and (max-width: 1024px) {  
+    .green-menu-custom {
+        padding: 0 122px;
+    }
+
+    .star-text-padding {
+        padding: 160px 24px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .green-menu-custom {
+        padding: 0 24px;
+    }
+
+    .star-text-padding {
+        padding: 300px 24px;
+    }
+
+    .bg-star {
+        background-color: rgb(212, 233, 226);
+        background-image: url(assets/images/bg-star-2.jpg);
+        background-position: 100%;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 768px) {
+    .star-text-padding {
+        padding: 90px 24px;
+    }
+
+    .bg-star {
+        background-color: rgb(212, 233, 226);
+        background-image: url(assets/images/bg-star.png);
+        background-position: 50%;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
 }
  
 
