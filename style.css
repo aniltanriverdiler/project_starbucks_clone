@@ -190,6 +190,10 @@ a.nav-link.active:hover {
     padding: 275px 146px;
   }
 
+  .join-hover:hover {
+    text-decoration: none;
+  }
+
   .icon-size-1 {
     width: 48px;
     height: 48px;
@@ -256,6 +260,24 @@ a.nav-link.active:hover {
     background-color: #d4e9e2;  /* Yarı saydam arka plan */
     z-index: -1;
   }
+
+   /* Indicators Styles */
+   .carousel-indicators [data-bs-target] {
+    background-color: black !important;
+  }
+      
+   .carousel-indicators .active {
+    background-color: black !important;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+
+  
+
+ 
 
   
 
