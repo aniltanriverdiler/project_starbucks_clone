@@ -209,8 +209,8 @@ a.nav-link.active:hover {
   }
 
   .breakfast-img {
-    width: 375px;
-    height: 211px;
+    width: 576px;
+    height: 324px;
   }
 
   .icon-size-2 {
@@ -260,9 +260,8 @@ a.nav-link.active:hover {
     background-color: #d4e9e2;  /* Yarı saydam arka plan */
     z-index: -1;
   }
-
-   /* Indicators Styles */
-   .carousel-indicators [data-bs-target] {
+ 
+   .carousel-indicators [data-bs-target] { /* Indicators Styles */
     background-color: black !important;
   }
       
@@ -275,7 +274,21 @@ a.nav-link.active:hover {
     filter: invert(100%);
   }
 
+  .mobile-text {
+    width: 200px;
+    height: min-content;
+  }
+
+  .mobile-text-1 {
+    width: 300px;
+    height: min-content;
+  }
+
   
+  
+  
+  
+
 
  
 
@@ -525,6 +538,11 @@ a.nav-link.active:hover {
         background-repeat: no-repeat;
         width: 100%;
     }
+
+    .mobile-text-1 {
+        width: 400px;
+        height: min-content;
+      }
 }
 
 @media (min-width: 768px) and (max-width: 768px) {
@@ -540,7 +558,54 @@ a.nav-link.active:hover {
         background-repeat: no-repeat;
         width: 100%;
     }
+
+    .mobile-text-1 {
+        width: 225px;
+        height: min-content;
+      }
 }
+
+@media (min-width: 375px) and (max-width: 575px) {
+    .mobile-text-1 {
+        width: 230px;
+        height: min-content;
+      }
+}
+
+@media (min-width: 768px) {
+    .breakfast-text {
+        width: 343px;
+        height: 108px;
+    }
+
+
+    .breakfast-text-1 {
+        width: 343px;
+        height: 72px;
+    }
+
+    .breakfast-img {
+        width: 375px;
+        height: 211px;
+      }
+}
+
+@media (max-width: 576px) {
+    .breakfast-text {
+        width: 544px;
+        height: 57px;
+        text-align: center;
+    }
+
+
+    .breakfast-text-1 {
+        width: 544px;
+        height: 42px;
+        text-align: center;
+    }
+}
+
+
  
 
 
