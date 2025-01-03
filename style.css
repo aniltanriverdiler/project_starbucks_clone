@@ -284,6 +284,84 @@ a.nav-link.active:hover {
     height: min-content;
 }
 
+/* Gift Cards Page Styles */
+.gift-padding-1 {
+    padding: 56px 40px 40px 146px;
+}
+
+.gift-padding-2 {
+    padding: 0 55px 30px 146px;
+}
+
+.gift-padding-3 {
+    padding: 30px 55px 30px 146px;
+}
+
+.gift-padding-4 {
+    padding: 0 55px 0 146px;
+}
+
+.gift-cards {
+    width: 320px;
+    height: 200px;
+    box-shadow: 0 4px 1px #0000001c,0 0 2px #0000003d;
+    border-radius: 10px;
+}
+
+.gift-cards-text {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin: 0;
+}
+
+.credit-card-size {
+    width: 58px;
+    height: 54px;
+}
+
+.credit-card-custom {
+    margin: 0 55px 30px 146px;
+    padding: 1rem;
+    background-color: #ecebe9;
+    border-radius: 10px;
+}
+
+.received-custom {
+    padding: 40px 55px 20px 146px;
+    background-color: #d4e9e2;
+}
+
+.business-card-size {
+    width: 375px;
+    height: 250px;
+}
+
+.business-card-custom {
+    margin-top: 30px;
+    padding: 55px 55px 55px 146px;
+    background-color: #f9f9f9;
+}
+
+.business-card-text {
+    width: 375px;
+    height: 96px;
+    margin: 8px 0 40px 0;
+    color: #00000094;
+    font-weight: 500;
+}
+
+.description-custom {
+    padding: 56px 40px 40px 146px;
+    background-color: #ecebe9;
+}
+ 
+
+
+
+
+
+
 
 
   
@@ -332,6 +410,18 @@ a.nav-link.active:hover {
 .footer-text {
     font-weight: 500;
     opacity: 0.75;
+}
+
+.accordion {
+    --bs-accordion-active-bg: white !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
 }
 
 .text-decoration-none.text-muted.footer-text:hover {
@@ -627,6 +717,136 @@ a.nav-link.active:hover {
         text-align: center;
     }
 }
+
+
+/* Gift Cards Page CSS Media Queries */
+@media (max-width: 576px) {
+    .gift-padding-1 {
+        padding: 16px 16px;
+    }
+
+    .gift-padding-2 {
+        padding: 8px 16px;
+    }
+
+    .gift-padding-3 {
+        padding: 16px 16px;
+    }
+
+    .gift-padding-4 {
+        padding: 0 16px;
+    }
+
+    .gift-cards-text {
+        font-weight: 700;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 1.8px;
+        margin: 0;
+    }
+
+    .credit-card-custom {
+        margin: 16px;
+        padding: 1rem;
+        background-color: #ecebe9;
+        border-radius: 10px;
+    }
+
+    .received-custom {
+        padding: 24px 16px;
+        background-color: #d4e9e2;
+    }
+
+    .gift-cards {
+        width: 155px;
+        height: 98px;
+        box-shadow: 0 4px 1px #0000001c,0 0 2px #0000003d;
+        border-radius: 10px;
+    }
+
+    .business-card-custom {
+        margin-top: 30px;
+        padding: 24px 182px 24px 16px;
+        background-color: #f9f9f9;
+    }
+
+    .description-custom {
+        padding: 24px 16px;
+        background-color: #ecebe9;
+    }
+
+    .gift-cards {
+        width: 155px;
+        height: 98px;
+        box-shadow: 0 4px 1px #0000001c,0 0 2px #0000003d;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1024px) {
+    .gift-padding-1 {
+        padding: 16px 120px;
+    }
+
+    .gift-padding-2 {
+        padding: 8px 16px 8px 120px;
+    }
+
+    .gift-padding-3 {
+        padding: 16px 16px 16px 120px;
+    }
+
+    .gift-padding-4 {
+        padding: 0 16px 0px 120px;
+    }
+
+    .gift-cards-text {
+        font-weight: 700;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 1.8px;
+        margin: 0;
+    }
+
+    .credit-card-custom {
+        margin: 16px 16px 16px 120px;
+        padding: 1rem;
+        background-color: #ecebe9;
+        border-radius: 10px;
+    }
+
+    .received-custom {
+        padding: 24px 16px 24px 120px;
+        background-color: #d4e9e2;
+    }
+
+    .gift-cards {
+        width: 155px;
+        height: 98px;
+        box-shadow: 0 4px 1px #0000001c,0 0 2px #0000003d;
+        border-radius: 10px;
+    }
+
+    .business-card-custom {
+        margin-top: 30px;
+        padding: 24px 182px 24px 16px;
+        background-color: #f9f9f9;
+    }
+
+    .description-custom {
+        padding: 24px 16px;
+        background-color: #ecebe9;
+    }
+
+    .gift-cards {
+        width: 195px;
+        height: 122px;
+        box-shadow: 0 4px 1px #0000001c,0 0 2px #0000003d;
+        border-radius: 10px;
+    }
+}
+
+
 
 
 

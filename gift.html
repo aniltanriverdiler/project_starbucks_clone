@@ -30,8 +30,10 @@
   <body>
     <!--  Navbar Section -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light px-xl-5 px-lg-4 px-md-4 px-sm-3 py-xl-4 py-lg-4 py-md-4 py-sm-3 shadow-sm">
-        <div class="container-fluid">
+      <nav
+        class="navbar navbar-expand-lg navbar-light p-3 px-xl-5 px-lg-4 px-md-4 px-sm-3 py-xl-4 py-lg-4 py-md-4 py-sm-3 shadow-sm"
+      >
+        <div class="container-fluid p-0">
           <!-- Logo -->
           <a href="index.html">
             <img
@@ -113,7 +115,7 @@
                   >
                   <a
                     href="#join"
-                    class="btn btn-dark text-white fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4 margin-custom"
+                    class="btn btn-dark text-white fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4 me-join-btn"
                     >Join now</a
                   >
                 </div>
@@ -124,231 +126,727 @@
       </nav>
     </header>
 
-    <!--  Gift Card-1 Section -->
-    <section class="margin-card">
-      <div class="row g-0">
-        <div class="col-12 col-lg-6">
-          <img
-            src="assets/images/for-life-image.jpg"
-            class="img-fluid"
-            alt="gift-image"
-          />
+    <!-- Gift Cards Page Section -->
+    <main>
+      <!-- Gift Cards Heading Section -->
+      <div class="gift-padding-1">
+        <h1 class="m-0 fw-bold">Gift cards</h1>
+      </div>
+
+      <!-- Featured Cards Section -->
+      <section>
+        <div class="gift-padding-2 d-flex justify-content-between">
+          <p class="gift-cards-text">FEATURED</p>
+          <p class="m-0 fw-bold link-success">See all</p>
         </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-2">
+          <div>
+            <img
+              src="assets/images/gift-page-img/gift-cards-img/gift-cards-1.webp"
+              class="gift-cards"
+              alt="gift-cards-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/gift-cards-img/gift-cards-2.jpeg"
+              class="gift-cards"
+              alt="gift-cards-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/gift-cards-img/gift-cards-3.jpeg"
+              class="gift-cards"
+              alt="gift-cards-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/gift-cards-img/gift-cards-4.webp"
+              class="gift-cards"
+              alt="gift-cards-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Credit Cards Section -->
+      <aside>
         <div
-          class="col-12 col-lg-6 flex-column padding-custom bg-color d-flex justify-content-center align-items-center"
+          class="d-flex flex-row mb-3 gap-3 credit-card-custom align-items-center"
         >
-          <h1 class="text-white text-center text-custom mx-4 mb-4 px-3">
-            Our holiday game is here to play
-          </h1>
-          <p class="text-white text-center fw-semibold fs-4 mx-4 px-2 mb-4">
-            Pop in for chances to win $20,000 in Delta Gift Cards or Starbucks
-            for Life!*
-          </p>
-          <a
-            href="#play"
-            class="btn text-white fw-bold text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
-            >Play now</a
-          >
+          <div>
+            <img
+              src="assets/images/gift-page-img/group-gift-cards.png"
+              class="credit-card-size"
+              alt="credit-card"
+            />
+          </div>
+          <div>
+            <p class="m-0 pb-1 fw-medium">
+              Effortlessly send up to 10 eGifts per purchase. Select a design to
+              start!
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </aside>
 
-    <!--  Gift Card-2 Section -->
-    <section class="margin-card">
-      <div class="row g-0">
+      <!-- Received a Gift Card Section -->
+      <aside>
+        <div class="received-custom">
+          <!-- Received a Gift Card Headings -->
+          <div
+            class="d-flex flex-column flex-xl-row align-items-xl-center gap-2 gap-lg-3 gap-xl-4 mb-3"
+          >
+            <!-- Title and Earns Stars -->
+            <div
+              class="d-flex flex-column flex-xl-row align-items-xl-center gap-2 gap-lg-3 gap-xl-4"
+            >
+              <h2 class="m-0 fs-4">Received a gift card?</h2>
+            </div>
+
+            <!-- Received a Gift Card Button -->
+            <div
+              class="d-flex flex-column flex-md-row flex-xl-row align-items-xl-center gap-2 gap-lg-3 gap-xl-4"
+            >
+              <p class="m-0 fs-5 fw-medium text-muted">Earns 2★Stars per $1</p>
+              <div class="d-flex flex-column flex-sm-row gap-3">
+                <a
+                  href="#sign-in"
+                  class="btn text-black fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4"
+                  >Add or Reload</a
+                >
+                <a
+                  href="#join"
+                  class="btn btn-dark text-white fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4 me-join-btn"
+                  >Check balance</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Received a Gift Card Link -->
+          <div class="d-flex pt-lg-4 justify-content-end">
+            <a
+              href="https://www.starbucks.com/terms/manage-gift-cards/"
+              target="_blank"
+              class="link-success text-decoration-none fw-bold fs-6 lead"
+            >
+              Card Terms & Conditions
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- New Year Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">New Year</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/new-year-card-img/new-year-1.webp"
+              class="gift-cards"
+              alt="new-year-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/new-year-card-img/new-year-2.png"
+              class="gift-cards"
+              alt="new-year-card-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Hanukkah Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Hanukkah</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/hanukkah-card-img/hanukkah-1.webp"
+              class="gift-cards"
+              alt="hanukkah-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/hanukkah-card-img/hanukkah-2.jpg"
+              class="gift-cards"
+              alt="hanukkah-card-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Kwanzaa Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Kwanzaa</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/kwanzaa-card-img/kwanzaa-1.jpg"
+              class="gift-cards"
+              alt="kwanzaa-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/kwanzaa-card-img/kwanzaa-2.jpg"
+              class="gift-cards"
+              alt="kwanzaa-card-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Birthday Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Birthday</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/birthday-card-img/birthday-1.jpeg"
+              class="gift-cards"
+              alt="birthday-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/birthday-card-img/birthday-2.webp"
+              class="gift-cards"
+              alt="birthday-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/birthday-card-img/birthday-3.jpg"
+              class="gift-cards"
+              alt="birthday-card-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/birthday-card-img/birthday-4.webp"
+              class="gift-cards"
+              alt="birthday-card-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Thank You Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Thank You</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/thank-you-card-img/thank-you-1.jpeg"
+              class="gift-cards"
+              alt="thank-you-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/thank-you-card-img/thank-you-2.avif"
+              class="gift-cards"
+              alt="thank-you-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/thank-you-card-img/thank-you-3.avif"
+              class="gift-cards"
+              alt="thank-you-card-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/thank-you-card-img/thank-you-4.avif"
+              class="gift-cards"
+              alt="thank-you-card-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Celebration Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Celebration</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/celebration-card-img/celebration-1.png"
+              class="gift-cards"
+              alt="celebration-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/celebration-card-img/celebration-2.avif"
+              class="gift-cards"
+              alt="celebration-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/celebration-card-img/celebration-3.avif"
+              class="gift-cards"
+              alt="celebration-card-3"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Winter Cards Section -->
+      <section>
+        <div class="gift-padding-3 d-flex justify-content-between">
+          <p class="gift-cards-text">Winter</p>
+          <p class="m-0 fw-bold link-success">See all</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/winter-card-img/winter-1.jpeg"
+              class="gift-cards"
+              alt="winter-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/winter-card-img/winter-2.webp"
+              class="gift-cards"
+              alt="winter-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/winter-card-img/winter-3.png"
+              class="gift-cards"
+              alt="winter-card-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/winter-card-img/winter-4.webp"
+              class="gift-cards"
+              alt="winter-card-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Holiday Cards Section -->
+      <section>
+        <div class="gift-padding-3 d-flex justify-content-between">
+          <p class="gift-cards-text">Holiday</p>
+          <p class="m-0 fw-bold link-success">See all</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/holiday-card-img/holiday-1.png"
+              class="gift-cards"
+              alt="holiday-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/holiday-card-img/holiday-2.jpeg"
+              class="gift-cards"
+              alt="holiday-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/holiday-card-img/holiday-3.jpg"
+              class="gift-cards"
+              alt="holiday-card-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/holiday-card-img/holiday-4.png"
+              class="gift-cards"
+              alt="holiday-card-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Red Cup Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Red Cup</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/red-cup-card-img/red-cup-1.png"
+              class="gift-cards"
+              alt="red-cup-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/red-cup-card-img/red-cup-2.jpeg"
+              class="gift-cards"
+              alt="red-cup-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/red-cup-card-img/red-cup-3.jpg"
+              class="gift-cards"
+              alt="red-cup-card-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/red-cup-card-img/red-cup-4.jpg"
+              class="gift-cards"
+              alt="red-cup-card-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Appreciation Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Appreciation</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/appreciation-card-img/appreciation-1.jpg"
+              class="gift-cards"
+              alt="appreciation-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/appreciation-card-img/appreciation-2.jpg"
+              class="gift-cards"
+              alt="appreciation-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/appreciation-card-img/appreciation-3.jpg"
+              class="gift-cards"
+              alt="appreciation-card-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/appreciation-card-img/appreciation-4.avif"
+              class="gift-cards"
+              alt="appreciation-card-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Encouragement Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Encouragement</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/encouragement-card-img/encouragement-1.png"
+              class="gift-cards"
+              alt="encouragement-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/encouragement-card-img/encouragement-2.avif"
+              class="gift-cards"
+              alt="encouragement-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/encouragement-card-img/encouragement-3.jpeg"
+              class="gift-cards"
+              alt="encouragement-card-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/encouragement-card-img/encouragement-4.avif"
+              class="gift-cards"
+              alt="encouragement-card-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Wicked Cards Section -->
+      <section>
+        <div class="gift-padding-3 d-flex justify-content-between">
+          <p class="gift-cards-text">Wicked</p>
+          <p class="m-0 fw-bold link-success">See all</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/wicked-card-img/wicked-1.avif"
+              class="gift-cards"
+              alt="wicked-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/wicked-card-img/wicked-2.webp"
+              class="gift-cards"
+              alt="wicked-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/wicked-card-img/wicked-3.avif"
+              class="gift-cards"
+              alt="wicked-card-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/wicked-card-img/wicked-4.webp"
+              class="gift-cards"
+              alt="wicked-card-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Affection Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Affection</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/affection-card-img/affection-1.avif"
+              class="gift-cards"
+              alt="affection-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/affection-card-img/affection-2.webp"
+              class="gift-cards"
+              alt="affection-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/affection-card-img/affection-3.webp"
+              class="gift-cards"
+              alt="affection-card-3"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Workplace Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Workplace</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/workplace-card-img/workplace-1.jpg"
+              class="gift-cards"
+              alt="workplace-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/workplace-card-img/workplace-2.webp"
+              class="gift-cards"
+              alt="workplace-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/workplace-card-img/workplace-3.avif"
+              class="gift-cards"
+              alt="workplace-card-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/workplace-card-img/workplace-4.avif"
+              class="gift-cards"
+              alt="workplace-card-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Anytime Cards Section -->
+      <section>
+        <div class="gift-padding-3">
+          <p class="gift-cards-text">Anytime</p>
+        </div>
+        <div class="d-flex flex-row gap-3 gap-md-4 gift-padding-4">
+          <div>
+            <img
+              src="assets/images/gift-page-img/anytime-card-img/anytime-1.png"
+              class="gift-cards"
+              alt="anytime-card-1"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/anytime-card-img/anytime-2.jpeg"
+              class="gift-cards"
+              alt="anytime-card-2"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/anytime-card-img/anytime-3.avif"
+              class="gift-cards"
+              alt="anytime-card-3"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/gift-page-img/anytime-card-img/anytime-4.avif"
+              class="gift-cards"
+              alt="anytime-card-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Business Gifting Cards Section -->
+      <aside>
         <div
-          class="col-12 col-lg-6 flex-column padding-custom bg-color-1 d-flex justify-content-center align-items-center order-2 order-lg-1 order-md-2 order-sm-2"
+          class="d-flex flex-column flex-md-row gap-3 gap-lg-5 business-card-custom align-items-center"
         >
-          <h1 class="text-color text-center text-custom mx-4 mb-4 px-3">
-            Joy in every sip
-          </h1>
-          <p class="text-color-1 text-center fw-semibold fs-4 mx-4 px-3 mb-4">
-            Taste the magic of the holidays with a Peppermint Mocha, Caramel
-            Brulée Latte or Chestnut Praline Latte.
-          </p>
-          <a
-            href="#play"
-            class="text-color-1 fw-bold text-decoration-none custom-border px-3 py-1 rounded-4"
-            >Order now</a
-          >
+          <div>
+            <img
+              src="assets/images/gift-page-img/bulk-gift-cards.jpg"
+              class="business-card-size"
+              alt="business-card"
+            />
+          </div>
+          <!-- Business Gifting Cards Description -->
+          <div class="d-flex flex-column">
+            <div>
+              <p class="m-0 pb-1 fw-semibold fs-4">
+                Business gifting — simplified
+              </p>
+            </div>
+            <div>
+              <p class="business-card-text">
+                Bulk send physical or digital Starbucks Cards to gift, reward,
+                incentivize, or show appreciation towards your customers,
+                clients and team members. Minimum 15 cards per order.
+              </p>
+            </div>
+            <div>
+              <a
+                href="https://www.starbuckscardb2b.com/s/"
+                target="_blank"
+                class="btn text-black fw-medium text-decoration-none border border-1 border-dark px-4 py-1 rounded-4"
+                >Shop now</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="col-12 col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
-          <img
-            src="assets/images/green-cup.jpg"
-            class="img-fluid"
-            alt="gift-image"
-          />
-        </div>
-      </div>
-    </section>
+      </aside>
 
-    <!--  Gift Card-3 Section -->
-    <section class="margin-card">
-      <div class="row g-0">
-        <div class="col-12 col-lg-6">
-          <img
-            src="assets/images/christmas-image.jpg"
-            class="img-fluid"
-            alt="gift-image"
-          />
-        </div>
-        <div
-          class="col-12 col-lg-6 flex-column padding-custom bg-color-2 d-flex justify-content-center align-items-center"
-        >
-          <h1 class="text-white text-center text-custom mx-4 mb-4 px-3">
-            Merry last-minute gifts
-          </h1>
-          <p class="text-white text-center fw-semibold fs-4 mx-4 px-2 mb-4">
-            There’s still time to send a holiday Starbucks eGift. Choose your
-            favorite design and share some joy via text, social media or email.
-          </p>
-          <a
-            href="#play"
-            class="btn text-white fw-bold text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
-            >Send an eGift</a
-          >
-        </div>
-      </div>
-    </section>
+      <!-- Gift Cards Page Description -->
+      <aside>
+        <div class="description-custom">
+          <div class="d-flex flex-row flex-wrap">
+            <!-- Paragraph - 1 Section -->
+            <div class="col-md-6 text-start pe-3">
+              <p class="small">
+                <span class="text-black fw-semibold fs-5"
+                  >About eGift cards</span
+                >
+                <br />
+                <br />
+                A Starbucks eGift card (also known as an “eGift”) is a Starbucks
+                Gift Card that is purchased and sent digitally.<br />
+                <br />
+                For Senders of an eGift, go to eGift History when signed in to
+                view, send, or resend eGifts you’ve purchased — or, to directly
+                contact Starbucks eGift Support for help with your order.<br />
+                <br />
+                <span class="text-black fw-semibold fs-5"
+                  >Questions around eGift cards?</span
+                ><br />
+                <br />
+                Check our Frequently Asked Questions — your question might
+                already be answered. There, you’ll find answers for all
+                Starbucks Gift Cards in general (including eGifts).
+              </p>
+              <div>
+                <a
+                  href="https://www.starbuckscardb2b.com/s/"
+                  target="_blank"
+                  class="btn text-black fw-medium text-decoration-none border border-1 border-dark px-4 py-1 rounded-4"
+                  >Card FAQs</a
+                >
+              </div>
+            </div>
 
-    <!-- Small Gift Card-1 Section -->
-    <section class="margin-card">
-      <div class="row g-0">
-        <div
-          class="col-12 col-lg-6 flex-column padding-custom bg-color-3 d-flex justify-content-center align-items-center order-2 order-lg-1 order-md-2 order-sm-2"
-        >
-          <h1 class="text-color-2 text-center text-custom-2 mx-4 mb-4 px-3">
-            Unwrap your first gift
-          </h1>
-          <p class="text-color-3 text-center fw-semibold fs-5 mx-4 px-2 mb-4">
-            Join Starbucks® Rewards and get a free drink with qualifying
-            purchase during your first week.**
-          </p>
-          <a
-            href="#play"
-            class="text-color-4 fw-bold text-decoration-none custom-border-2 px-3 py-1 rounded-4"
-            >Join now</a
-          >
+            <!-- Paragraph - 2 Section -->
+            <div class="col-md-6 text-start px-md-3">
+              <p class="small mt-3 mt-md-0">
+                <span class="text-black fw-semibold fs-5"
+                  >About Starbucks Gift Cards in general</span
+                ><br />
+                <br />
+                Starbucks Gift Cards, including eGifts, can be used to pay in a
+                Starbucks store or to join Starbucks® Rewards. <br />
+                <br />
+                Register Gift Cards and eGifts to a Starbucks® Rewards account
+                and earn 2★ per dollar every time you pay with that card. Those
+                Stars quickly add up to free food, drinks, and more!
+                <br />
+              </p>
+              <div>
+                <a
+                  href="https://www.starbucks.com/terms/manage-gift-cards/"
+                  target="_blank"
+                  class="btn text-black fw-medium text-decoration-none border border-1 border-dark px-4 py-1 rounded-4"
+                  >Card Terms & Conditions</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-12 col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
-          <img
-            src="assets/images/cup-2.jpg"
-            class="img-fluid"
-            alt="gift-image"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- Small Gift Card-2 Section -->
-    <section class="margin-card">
-      <div class="row g-0">
-        <div class="col-12 col-lg-6">
-          <img
-            src="assets/images/feeding-america.webp"
-            class="img-fluid"
-            alt="gift-image"
-          />
-        </div>
-        <div
-          class="col-12 col-lg-6 flex-column padding-custom bg-color-2 d-flex justify-content-center align-items-center"
-        >
-          <h1 class="text-white text-center text-custom-2 mx-4 mb-4 px-3">
-            Buy a box, we’ll give back​
-          </h1>
-          <p class="text-white text-center fw-semibold fs-5 mx-4 px-3 mb-4">
-            In partnership with Feeding America®, protein box purchase helps
-            support hunger relief in your community.***
-          </p>
-          <a
-            href="#play"
-            class="btn text-white fw-bold text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
-            >Learn more</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <!--  Gift Card-4 Section -->
-    <section class="margin-card">
-      <div class="row g-0">
-        <div
-          class="col-12 col-lg-6 flex-column padding-custom bg-color-1 d-flex justify-content-center align-items-center order-2 order-lg-1 order-md-2 order-sm-2"
-        >
-          <h1 class="text-color text-center text-custom mx-4 mb-4 px-3">
-            A beloved tradition returns
-          </h1>
-          <p class="text-color-1 text-center fw-semibold fs-4 mx-4 px-3 mb-4">
-            Starbucks® Christmas Blend is here to celebrate 40 years as a robust
-            dark roast with notes of spiced chocolate and spruce tips..
-          </p>
-          <a
-            href="#play"
-            class="text-color-1 fw-bold text-decoration-none custom-border px-3 py-1 rounded-4"
-            >Order now</a
-          >
-        </div>
-        <div class="col-12 col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
-          <img
-            src="assets/images/christmas-blend.jpg"
-            class="img-fluid"
-            alt="gift-image"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!--  Brand-1 Description -->
-    <aside>
-      <div class="container justify-content-center text-center">
-        <p class="brand-text px-5 py-4">
-          *No Purchase Necessary, U.S. 18+, See
-          <a
-            href="https://starbucks.promo.eprize.com/holiday2024/public/fulfillment/rules.pdf"
-            >Official Rules</a
-          >
-          Official Rules for alternate method. Enter by 1/5/25. <br />
-          *Starbucks for Life means the winner will receive a daily credit for
-          30 years for one free food or <br />
-          beverage item at participating Starbucks stores in the U.S. Excludes
-          alcohol.
-        </p>
-      </div>
-    </aside>
-
-    <!--  Brand-2 Description -->
-    <aside>
-      <div class="container justify-content-center text-center">
-        <p class="brand-text p-5">
-          **Valid only for new Starbucks Rewards members for 7 days from sign
-          up. Offer good at <br />
-          participating stores for a handcrafted menu-sized beverage with
-          qualifying purchase ($8 max <br />
-          value). Qualifying purchase excludes alcohol, Starbucks Card and
-          Starbucks Card reloads. Limit one <br />
-          per member. Cannot be combined with other offers or discounts.
-          Excludes delivery services. Sign <br />
-          up before 1/2/2025 to be eligible.
-        </p>
-      </div>
-    </aside>
-
-    <!--  Brand-3 Description -->
-    <aside>
-      <div class="container justify-content-center text-center">
-        <p class="brand-text pt-4 pb-4 px-5">
-          ***At participating Starbucks stores within the U.S. from 11/19/24 to
-          1/2/25, for each protein box <br />
-          sold, Starbucks will donate the monetary equivalent of one meal to
-          Feeding America®. $1 helps <br />
-          provide at least 10 meals secured by Feeding America on behalf of
-          local partner food banks.
-        </p>
-      </div>
-    </aside>
+      </aside>
+    </main>
 
     <!--  Footer Section -->
-    <footer class="footer-padding py-4 footer-shadow">
+    <footer class="footer-padding py-4">
       <div class="row row-cols-xl-auto gx-xl-5 row-display">
         <!--  About Us Section -->
         <div class="col">
@@ -970,12 +1468,13 @@
         </li>
         <li>
           <p class="text-muted pt-4">
-            © 2024 Starbucks Coffee Company. All rights reserved.
+            © 2025 Starbucks Coffee Company. All rights reserved.
           </p>
         </li>
       </ul>
     </footer>
 
+    <!--  Script Section -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
