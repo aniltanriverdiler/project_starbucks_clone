@@ -356,6 +356,36 @@ a.nav-link.active:hover {
     background-color: #ecebe9;
 }
 
+/* Sign-in Page Styles */
+.card-custom {
+    width: 550px;
+    height: 550px;
+    padding: 16px;
+    box-shadow: 0 2px 4px #00000012,0 4px 5px #0000000f,0 1px 10px #0000001a;
+}
+
+.form-check-input:checked {
+    background-color: #00754a !important;
+    border-color: #00754a !important;
+}
+
+.card-text-custom {
+    font-weight: 700;
+    color: #006241;
+    font-size: 17px;
+}
+
+.card-text-custom:hover {
+    text-decoration: none;
+}
+
+.aside-text {
+    width: 320px;
+    height: 80px;
+    text-align: center;
+}
+
+
 
  
 
@@ -847,6 +877,8 @@ a.nav-link.active:hover {
         border-radius: 10px;
     }
 }
+
+/* Sign in Page CSS Media Queries */
 
 
 

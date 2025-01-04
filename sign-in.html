@@ -42,455 +42,115 @@
               alt="starbucks-icon"
             />
           </a>
-          <!-- Toggle Button -->
-          <button
-            class="navbar-toggler shadow-none border-0 p-0 pe-sm-2"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Side Bar -->
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <!-- Side Bar Header -->
-            <div class="offcanvas-header border-bottom py-4">
-              <button
-                type="button"
-                class="btn-close shadow-none me-2"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <!-- Side Bar Body -->
-            <div class="offcanvas-body pt-5 pt-lg-0">
-              <ul
-                class="navbar-nav justify-content-start align-items-lg-center align-items-start flex-grow-1 pe-3"
-              >
-                <li class="nav-item mb-4 mb-lg-0">
-                  <a
-                    class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
-                    href="menu.html"
-                    >Menu</a
-                  >
-                </li>
-                <li class="nav-item mb-4 mb-lg-0">
-                  <a
-                    class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
-                    href="rewards.html"
-                    >Rewards</a
-                  >
-                </li>
-                <li class="nav-item mb-4 mb-lg-0">
-                  <a
-                    class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
-                    href="gift.html"
-                    >Gift Cards</a
-                  >
-                </li>
-              </ul>
-              <hr class="mb-4 mb-lg-0" />
-              <!-- Join / Sign in Button -->
-              <div
-                class="d-flex flex-column-reverse flex-lg-row justify-content-start align-items-lg-center align-items-start gap-3"
-              >
-                <a
-                  class="nav-link active d-flex align-items-center me-5"
-                  href="#find"
-                  ><i class="bi bi-geo-alt-fill icon-size me-2"></i
-                  ><span class="fw-semibold">Find a store</span></a
-                >
-                <div class="d-flex gap-3">
-                  <a
-                    href="sign-in.html"
-                    class="btn btn-light text-black fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4"
-                    >Sign in</a
-                  >
-                  <a
-                    href="#join"
-                    class="btn btn-dark text-white fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4 margin-custom"
-                    >Join now</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </nav>
     </header>
 
+    <!-- Sign-in Page Section -->
     <main>
-      <!-- Heading Section -->
-      <div class="text-center py-4 mb-4">
-        <h1 class="heading-text">The cheer is here</h1>
-      </div>
-      <!-- Featured Gift Card-1 Section -->
-      <section class="margin-card">
-        <div class="row g-0">
-          <div class="col-12 col-lg-6">
-            <img
-              src="assets/images/green-cup-2.jpg"
-              class="img-fluid"
-              alt="gift-image"
-            />
+      <!-- Sign-in Heading Section -->
+      <section>
+        <div class="container text-center">
+          <h1 class="m-0 fw-bolder fs-2 py-5 px-4">
+            Sign in or create an account
+          </h1>
+        </div>
+      </section>
+
+      <!-- Sign-in Cards Section -->
+      <section>
+        <div class="container d-flex justify-content-center">
+          <!-- Sign-in Cards Custom -->
+          <div class="card rounded-4 card-custom">
+            <!-- Sign-in Cards Body-->
+            <div class="card-body">
+              <h5 class="card-title fw-medium fs-6">
+                * indicates required field
+              </h5>
+              <!-- Sign-in Cards Email - Form -->
+              <form>
+                <div class="form-floating my-4 py-1">
+                  <input
+                    type="email"
+                    class="form-control border-1 border-black"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                    required
+                  />
+                  <label for="floatingInput" class="fw-medium fs-5"
+                    >* Username or email address</label
+                  >
+                </div>
+                <!-- Sign-in Cards Password - Form -->
+                <div class="form-floating mb-4 py-1">
+                  <input
+                    type="password"
+                    class="form-control border-1 border-black"
+                    id="floatingPassword"
+                    placeholder="Password"
+                    required
+                  />
+                  <label for="floatingPassword" class="fw-medium fs-5"
+                    >* Password</label
+                  >
+                </div>
+                <!-- Sign-in Cards Check Button -->
+                <div class="form-check d-flex align-items-center p-0">
+                  <input
+                    class="form-check-input fs-3 ms-1"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label
+                    class="form-check-label fw-semibold ps-2 pe-1"
+                    for="flexCheckChecked"
+                  >
+                    Keep me signed in.
+                  </label>
+                  <a href="#" class="card-text-custom">Details</a>
+                </div>
+                <!-- Sign-in Cards Forgot Link -->
+                <div class="d-flex flex-column mt-3 gap-2">
+                  <a href="#" class="card-text-custom">Forgot your username?</a>
+                  <a href="#" class="card-text-custom">Forgot your password?</a>
+                </div>
+                <!-- Sign-in Cards Button -->
+                <div class="d-flex justify-content-end mt-5 mb-3">
+                  <button
+                    class="btn rounded-pill fw-semibold text-white fs-5 py-3 px-4 bg-success shadow-lg"
+                  >
+                    Sign in
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
-          <div
-            class="col-12 col-lg-6 flex-column padding-custom bg-color-1 d-flex justify-content-center align-items-center"
-          >
-            <h1
-              class="text-color-1 text-center text-custom-3 mx-lg-4 mb-4 px-lg-3"
-            >
-              Let’s celebrate the season, together.
-            </h1>
-            <p
-              class="text-color-1 text-center fw-semibold fs-5 mx-lg-4 px-lg-2 mb-4"
-            >
-              Your festive faves, like the Peppermint Mocha, are back. Perfect
-              for a little holiday magic that’s delicious hot, iced or blended.
+        </div>
+      </section>
+
+      <!-- Join Starbucks® Rewards Section -->
+      <aside class="my-5 py-3">
+        <div class="d-flex flex-column align-items-center gap-2">
+          <h2 class="m-0 fw-bold fs-6 link-success text-uppercase">
+            Join Starbucks® Rewards
+          </h2>
+          <div class="aside-text">
+            <p>
+              Join Starbucks® Rewards to earn free food and drinks, get free
+              refills, pay and order with your phone, and more.
             </p>
+          </div>
+          <div>
             <a
-              href="#play"
-              class="text-color-1 fw-bold text-decoration-none custom-border px-3 py-1 rounded-4"
-              >Order now</a
+              href=""
+              class="btn btn-light text-success fw-medium text-decoration-none border border-1 border-success px-3 rounded-4"
+              >Join now</a
             >
           </div>
         </div>
-      </section>
-
-      <!-- Featured Gift Card-2 Section -->
-      <section class="margin-card">
-        <div class="row g-0">
-          <div class="col-12 col-lg-6 order-lg-1 order-md-0">
-            <img
-              src="assets/images/green-cup-3.jpg"
-              class="img-fluid"
-              alt="gift-image"
-            />
-          </div>
-          <div
-            class="col-12 col-lg-6 flex-column padding-custom bg-color-1 d-flex justify-content-center align-items-center order-lg-0 order-md-1"
-          >
-            <h1 class="text-color-1 text-center text-custom-3 mb-4">
-              New Cran-Merry Orange Refreshers
-            </h1>
-            <p class="text-color-1 text-center fw-semibold fs-5 mx-4 px-2 mb-4">
-              Orange, cranberry and spice with real cranberry pieces, perfect
-              solo or with lemonade or coconutmilk.
-            </p>
-            <a
-              href="#play"
-              class="text-color-1 fw-bold text-decoration-none custom-border px-3 py-1 rounded-4"
-              >Order now</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <!-- Featured Vertical Gift Card Section -->
-      <section class="margin-card">
-        <div class="text-center">
-          <div class="row g-4">
-            <!-- Featured Gift Card-3 Section -->
-            <div class="col-6 custom-col">
-              <div class="col-12 order-1">
-                <img
-                  src="assets/images/wicked-1.webp"
-                  class="img-fluid"
-                  alt="gift-image"
-                />
-              </div>
-              <div
-                class="col-12 flex-column padding-custom bg-color-4 d-flex justify-content-center align-items-center order-0"
-              >
-                <h1
-                  class="text-white text-center text-custom-3 mx-lg-4 mb-4 px-lg-3"
-                >
-                  Elphaba’s Cold Brew
-                </h1>
-                <p
-                  class="text-white text-center fw-semibold fs-5 mx-md-4 px-lg-4 mb-4"
-                >
-                  A thrillifying creation inspired by the film WICKED.
-                  Starbucks® signature Cold Brew sweetened with
-                  peppermint-flavored syrup, topped with nondairy matcha cold
-                  foam and a dusting of magical candy sprinkles.
-                </p>
-                <a
-                  href="#play"
-                  class="btn text-white fw-bold text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
-                  >Order now</a
-                >
-              </div>
-            </div>
-
-            <!-- Featured Gift Card-4 Section -->
-            <div class="col-6 custom-col">
-              <div class="col-12 order-1">
-                <img
-                  src="assets/images/wicked-2.webp"
-                  class="img-fluid"
-                  alt="gift-image"
-                />
-              </div>
-              <div
-                class="col-12 flex-column padding-custom bg-color-4 d-flex justify-content-center align-items-center order-0"
-              >
-                <h1
-                  class="text-white text-center text-custom-3 mx-lg-4 mb-4 px-lg-3"
-                >
-                  Glinda’s Pink Potion
-                </h1>
-                <p
-                  class="text-white text-center fw-semibold fs-5 mx-4 px-lg-2 mb-4"
-                >
-                  A fantabulous Starbucks Refreshers® Beverage inspired by the
-                  film WICKED. Crafted with sweet mango and dragonfruit flavors,
-                  creamy coconutmilk and real dragonfruit. Topped with nondairy
-                  strawberry cold foam and sprinkles.
-                </p>
-                <a
-                  href="#play"
-                  class="btn text-white fw-bold text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
-                  >Order now</a
-                >
-              </div>
-            </div>
-
-            <!-- Featured Gift Card-5 Section -->
-            <div class="col-6 custom-col">
-              <div class="col-12 order-1">
-                <img
-                  src="assets/images/caramel-brulee.jpg"
-                  class="img-fluid"
-                  alt="gift-image"
-                />
-              </div>
-              <div
-                class="col-12 flex-column padding-custom bg-color d-flex justify-content-center align-items-center order-0"
-              >
-                <h1
-                  class="text-white text-center text-custom-3 mx-4 mb-4 px-lg-3"
-                >
-                  Caramel Brulée Latte
-                </h1>
-                <p class="text-white text-center fw-semibold fs-5 mx-3 mb-4">
-                  Espresso, steamed milk and caramel brulée sauce are finished
-                  with whipped cream and a crunchy caramel brulée topping.
-                </p>
-                <a
-                  href="#play"
-                  class="btn text-white fw-bold text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
-                  >Order now</a
-                >
-              </div>
-            </div>
-
-            <!-- Featured Gift Card-6 Section -->
-            <div class="col-6 custom-col">
-              <div class="col-12 order-1">
-                <img
-                  src="assets/images/gingerbread.jpg"
-                  class="img-fluid"
-                  alt="gift-image"
-                />
-              </div>
-              <div
-                class="col-12 flex-column padding-custom bg-color d-flex justify-content-center align-items-center order-0"
-              >
-                <h1 class="text-white text-center text-custom-3 mx-4 mb-4 px-3">
-                  Iced Gingerbread Oatmilk Chai
-                </h1>
-                <p class="text-white text-center fw-semibold fs-5 mx-2 mb-4">
-                  Warm notes of gingerbread are combined with cozy chai spices
-                  and creamy oatmilk for a festive tea latte on ice.
-                </p>
-                <a
-                  href="#play"
-                  class="btn text-white fw-bold text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
-                  >Order now</a
-                >
-              </div>
-            </div>
-
-            <!-- Featured Gift Card-7 Section -->
-            <div class="col-6 custom-col">
-              <div class="col-12 order-1">
-                <img
-                  src="assets/images/almondmilk-latte.jpg"
-                  class="img-fluid"
-                  alt="gift-image"
-                />
-              </div>
-              <div
-                class="col-12 flex-column padding-custom bg-color-1 d-flex justify-content-center align-items-center order-0"
-              >
-                <h1 class="text-color-1 text-center text-custom-3 mb-4">
-                  Iced Sugar Latte
-                </h1>
-                <p class="text-color-1 text-center fw-semibold fs-5 mb-4">
-                  Starbucks® Blonde Espresso is combined with sugar cookie
-                  flavors and almondmilk on ice. Red and green sprinkles are
-                  added for a finishing touch.
-                </p>
-                <a
-                  href="#play"
-                  class="text-color-1 fw-bold text-decoration-none custom-border px-3 py-1 rounded-4"
-                  >Order now</a
-                >
-              </div>
-            </div>
-
-            <!-- Featured Gift Card-8 Section -->
-            <div class="col-6 custom-col">
-              <div class="col-12 order-1">
-                <img
-                  src="assets/images/chestnut-praline.jpg"
-                  class="img-fluid"
-                  alt="gift-image"
-                />
-              </div>
-              <div
-                class="col-12 flex-column padding-custom bg-color-1 d-flex justify-content-center align-items-center order-0"
-              >
-                <h1
-                  class="text-color-1 text-center text-custom-3 mx-lg-4 mb-4 px-lg-3"
-                >
-                  Chestnut Praline Latte
-                </h1>
-                <p class="text-color-1 text-center fw-semibold fs-5 mx-3 mb-4">
-                  Espresso and steamed milk join caramelized chestnut flavors
-                  with a topping of whipped cream and <br />
-                  spiced praline crumbs.
-                </p>
-                <a
-                  href="#play"
-                  class="text-color-1 fw-bold text-decoration-none custom-border px-3 py-1 rounded-4"
-                  >Order now</a
-                >
-              </div>
-            </div>
-
-            <!-- Featured Gift Card-9 Section -->
-            <div class="col-6 custom-col">
-              <div class="col-12 order-1">
-                <img
-                  src="assets/images/pumpkin-spice.jpg"
-                  class="img-fluid"
-                  alt="gift-image"
-                />
-              </div>
-              <div
-                class="col-12 flex-column padding-custom bg-color d-flex justify-content-center align-items-center order-0"
-              >
-                <h1 class="text-white text-center text-custom-3 mx-4 mb-4 px-3">
-                  Pumpkin Spice Latte
-                </h1>
-                <p class="text-white text-center fw-semibold fs-5 mx-3 mb-4">
-                  Espresso and steamed milk with pumpkin, cinnamon and nutmeg
-                  flavors, topped with whipped cream.
-                </p>
-                <a
-                  href="#play"
-                  class="btn text-white fw-bold text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
-                  >Order now</a
-                >
-              </div>
-            </div>
-
-            <!-- Featured Gift Card-10 Section -->
-            <div class="col-6 custom-col">
-              <div class="col-12 order-1">
-                <img
-                  src="assets/images/pumpkin-cream.jpg"
-                  class="img-fluid"
-                  alt="gift-image"
-                />
-              </div>
-              <div
-                class="col-12 flex-column padding-custom bg-color d-flex justify-content-center align-items-center order-0"
-              >
-                <h1 class="text-white text-center text-custom-3 mx-4 mb-4 px-3">
-                  Pumpkin Cream Cold Brew
-                </h1>
-                <p class="text-white text-center fw-semibold fs-5 mb-4">
-                  Starbucks® Cold Brew with vanilla syrup, topped with pumpkin
-                  cream foam and pumpkin spice.
-                </p>
-                <a
-                  href="#play"
-                  class="btn text-white fw-bold text-decoration-none border border-1 border-light px-3 py-1 rounded-4"
-                  >Order now</a
-                >
-              </div>
-            </div>
-
-            <!-- Featured Gift Card-11 Section -->
-            <div class="col-6 custom-col">
-              <div class="col-12 order-1">
-                <img
-                  src="assets/images/new-turkey.jpg"
-                  class="img-fluid"
-                  alt="gift-image"
-                />
-              </div>
-              <div
-                class="col-12 flex-column padding-custom bg-color-1 d-flex justify-content-center align-items-center order-0"
-              >
-                <h1
-                  class="text-color-1 text-center text-custom-3 mx-4 mb-4 px-3"
-                >
-                  New Turkey Sage Danish
-                </h1>
-                <p class="text-color-1 text-center fw-semibold fs-5 mb-4">
-                  A crisp and flaky pastry with turkey and stuffing spices,
-                  enrobed in a creamy béchamel sauce.
-                </p>
-                <a
-                  href="#play"
-                  class="text-color-1 fw-bold text-decoration-none custom-border px-3 py-1 rounded-4"
-                  >Order now</a
-                >
-              </div>
-            </div>
-
-            <!-- Featured Gift Card-12 Section -->
-            <div class="col-6 custom-col">
-              <div class="col-12 order-1">
-                <img
-                  src="assets/images/new-snowman.webp"
-                  class="img-fluid"
-                  alt="gift-image"
-                />
-              </div>
-              <div
-                class="col-12 flex-column padding-custom bg-color-1 d-flex justify-content-center align-items-center order-0"
-              >
-                <h1
-                  class="text-color-1 text-center text-custom-3 mx-4 mb-4 px-3"
-                >
-                  New Snowman Cake Pop
-                </h1>
-                <p class="text-color-1 text-center fw-semibold fs-5 mb-4">
-                  Vanilla cake mixed with buttercream, dipped in white-chocolaty
-                  icing with a snowman face and earmuffs.
-                </p>
-                <a
-                  href="#play"
-                  class="text-color-1 fw-bold text-decoration-none custom-border px-3 py-1 rounded-4"
-                  >Order now</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </aside>
     </main>
 
     <!--  Footer Section -->
@@ -1116,7 +776,7 @@
         </li>
         <li>
           <p class="text-muted pt-4">
-            © 2025 Starbucks Coffee Company. All rights reserved.
+            © 2024 Starbucks Coffee Company. All rights reserved.
           </p>
         </li>
       </ul>
