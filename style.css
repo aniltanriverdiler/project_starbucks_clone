@@ -879,6 +879,20 @@ a.nav-link.active:hover {
 }
 
 /* Sign in Page CSS Media Queries */
+@media (max-width: 767px) {
+    .card {
+      border: none !important;
+    }
+    
+    .card-custom {
+        width: 550px;
+        height: 550px;
+        padding: 16px;
+        box-shadow: none;
+    }
+    
+}
+ 
 
 
 
