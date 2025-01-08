@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Home Page (Index Page) Styles */
 /* Navbar Styles */
 .img-starbucks {
     width: 50px;
@@ -16,8 +17,20 @@ body {
     margin-right: 5.7rem;
 }
 
+.navbar-brand.pe-2 {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbar-brand.pe-2:hover {
     color: 	#00704A;
+}
+
+a.nav-link.active {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
 }
 
 a.nav-link.active:hover {
@@ -517,7 +530,7 @@ a.nav-link.active:hover {
 }
 
 
-/* Card-1 CSS Media Queries */
+/* Home Page (Index Page) CSS Media Queries */
 @media (max-width: 768px) {
     .margin-card {
         margin: 2rem 0 2rem 0;
@@ -532,6 +545,61 @@ a.nav-link.active:hover {
 
     .padding-custom {
         padding: 32px 16px 32px 16px !important;
+    }
+}
+
+/* Navbar Link CSS Media Queries */
+@media (min-width: 991px) {
+    .navbar-brand.pe-2::before {
+        content: "";
+        position: absolute;
+        bottom: -106%; /* Çizgiyi metnin altına yerleştir */
+        left: 45%; /* Ortala */
+        transform: translateX(-50%); /* Tam ortalamak için */
+        width: 0; /* Başlangıçta çizgi genişliği 0 */
+        height: 5px; /* Çizgi kalınlığı */
+        background-color: #00704A; /* Çizgi rengi */
+        visibility: hidden; /* Başlangıçta gizli */
+        transition: 0.3s ease-in-out; /* Geçiş efekti */
+    }
+
+    /* Hover durumunda çizgiyi göster */
+    .navbar-brand.pe-2:hover::before {
+        width: 93%; /* Çizgi genişliği */
+        visibility: visible; /* Çizgiyi görünür yap */
+    }
+
+    /* Target durumunda çizgiyi göster */
+    .navbar-brand.pe-2:target:before {
+        width: 93%; /* Çizgi genişliği */
+        visibility: visible; /* Çizgiyi görünür yap */
+    }
+}
+
+@media (min-width: 991px) {
+    a.nav-link.active::before {
+        content: "";
+        position: absolute;
+        bottom: -107%; /* Çizgiyi metnin altına yerleştir */
+        left: 55%; /* Ortala */
+        transform: translateX(-50%); /* Tam ortalamak için */
+        width: 0; /* Başlangıçta çizgi genişliği 0 */
+        height: 5px; /* Çizgi kalınlığı */
+        background-color: #00704A; /* Çizgi rengi */
+        visibility: hidden; /* Başlangıçta gizli */
+        transition: 0.3s ease-in-out; /* Geçiş efekti */
+    }
+
+    /* Hover durumunda çizgiyi göster */
+    a.nav-link.active:hover::before {
+        width: 100%; /* Çizgi genişliği */
+        visibility: visible; /* Çizgiyi görünür yap */
+    }
+
+    /* Target durumunda çizgiyi göster */
+    a.nav-link.active:target:before {
+        width: 100%; /* Çizgi genişliği */
+        visibility: visible; /* Çizgiyi görünür yap */
     }
 }
 
@@ -925,6 +993,7 @@ a.nav-link.active:hover {
     }
 }
 
+
 /* Sign in Page CSS Media Queries */
 @media (max-width: 767px) {
     .card {
@@ -938,6 +1007,7 @@ a.nav-link.active:hover {
         box-shadow: none;
     }
 }
+
 
 /* Join Now Page CSS Media Queries */
 @media (max-width: 767px) {
