@@ -125,8 +125,14 @@ a.nav-link.active:hover {
      padding: 16px 146px;
 }
 
+.menu-navbar-text {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
 .menu-list-padding {
-     padding: 40px 200px 40px 146px;
+    padding: 40px 200px 40px 146px;
 }
 
 .menu-text {
@@ -447,6 +453,8 @@ a.nav-link.active:hover {
 
 
 
+
+
  
 
 
@@ -673,6 +681,34 @@ a.nav-link.active:hover {
 
 
 /* Menu Page Media Queries */
+/* Menu Navbar Styles */
+@media (min-width: 991px) {
+    .menu-navbar-text::before {
+        content: "";
+        position: absolute;
+        bottom: -45%; /* Çizgiyi metnin altına yerleştir */
+        left: 50%; /* Ortala */
+        transform: translateX(-50%); /* Tam ortalamak için */
+        width: 0; /* Başlangıçta çizgi genişliği 0 */
+        height: 1px; /* Çizgi kalınlığı */
+        background-color: rgb(0 0 0 / 87%); /* Çizgi rengi */
+        visibility: hidden; /* Başlangıçta gizli */
+        transition: 0.3s ease-in-out; /* Geçiş efekti */
+    }
+
+    /* Hover durumunda çizgiyi göster */
+    .menu-navbar-text:hover::before {
+        width: 100%; /* Çizgi genişliği */
+        visibility: visible; /* Çizgiyi görünür yap */
+    }
+
+    /* Target durumunda çizgiyi göster */
+    .menu-navbar-text:target:before {
+        width: 100%; /* Çizgi genişliği */
+        visibility: visible; /* Çizgiyi görünür yap */
+    }
+}
+
 @media (max-width: 1024px) {
     .menu-list-display {
         display: none;
