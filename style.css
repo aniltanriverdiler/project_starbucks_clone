@@ -175,9 +175,11 @@ a.nav-link.active:hover {
 /* Menu / Previous Page Styles */
 
 
-
-
-
+/* Menu / Favorites Page Styles */
+.favorites-img-size {
+    width: 200px;
+    height: 213px;
+}
 
 
 /* Rewards Page Styles */
@@ -778,7 +780,7 @@ a.nav-link.active:hover {
 /* Menu / Previous Page CSS Media Queries */
 
 
-
+/* Menu / Favorites Page CSS Media Queries */
 
 
 /* Featured Page CSS Media Queries */
