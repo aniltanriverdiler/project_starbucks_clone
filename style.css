@@ -385,6 +385,53 @@ a.nav-link.active:hover {
     text-align: center;
 }
 
+/* Join Now Page Styles */
+.aside-text-2 {
+    width: 450px;
+    height: 60px;
+    text-align: center;
+}
+
+.rewards-link {
+    color: rgb(0 0 0 / 60%);
+}
+
+.rewards-link:hover {
+    text-decoration: none;
+}
+
+.card-custom-2 {
+    width: 550px;
+    height: 550px;
+    padding: 60px;
+    box-shadow: 0 2px 4px #00000012,0 4px 5px #0000000f,0 1px 10px #0000001a;
+}
+
+.join-accordion-text {
+    font-weight: 700;
+    color: #006241;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.join-accordion-text:hover {
+    text-decoration: none;
+}
+
+.check-button-link {
+    color: #006241;
+}
+
+.check-button-link:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
 
 
  
@@ -890,8 +937,37 @@ a.nav-link.active:hover {
         padding: 16px;
         box-shadow: none;
     }
-    
 }
+
+/* Join Now Page CSS Media Queries */
+@media (max-width: 767px) {
+    .card-custom-2 {
+        width: 550px;
+        height: 550px;
+        padding: 20px;
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .aside-text-2 {
+        width: 358px;
+        height: 70px;
+        padding-left: 10px;
+        text-align: start;
+    }
+
+    .card-custom-2 {
+        width: 550px;
+        height: 550px;
+        padding: 1px;
+        box-shadow: none;
+    }
+}
+
+
+
+
  
 
 
