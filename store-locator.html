@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="OnlyJS" />
+    <meta name="description" content="Starbucks - Clone" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks Coffee Company</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/images/starbucks-favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!--  Navbar Section -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light p-3 px-xl-5 px-lg-4 px-md-4 px-sm-3 py-xl-4 py-lg-4 py-md-4 py-sm-3 shadow-sm"
+      >
+        <div class="container-fluid p-0">
+          <!-- Logo -->
+          <a href="index.html">
+            <img
+              src="assets/images/starbucks-favicon.png"
+              class="img-starbucks me-5"
+              alt="starbucks-icon"
+            />
+          </a>
+          <!-- Toggle Button -->
+          <button
+            class="navbar-toggler shadow-none border-0 p-0 pe-sm-2"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Side Bar -->
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <!-- Side Bar Header -->
+            <div class="offcanvas-header border-bottom py-4">
+              <button
+                type="button"
+                class="btn-close shadow-none me-2"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- Side Bar Body -->
+            <div class="offcanvas-body pt-5 pt-lg-0">
+              <ul
+                class="navbar-nav justify-content-start align-items-lg-center align-items-start flex-grow-1 pe-3"
+              >
+                <li class="nav-item mb-4 mb-lg-0">
+                  <a
+                    class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
+                    href="menu.html"
+                    >Menu</a
+                  >
+                </li>
+                <li class="nav-item mb-4 mb-lg-0">
+                  <a
+                    class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
+                    href="rewards.html"
+                    >Rewards</a
+                  >
+                </li>
+                <li class="nav-item mb-4 mb-lg-0">
+                  <a
+                    class="navbar-brand pe-2 text-uppercase fw-bold fs-6 text-spacing"
+                    href="gift.html"
+                    >Gift Cards</a
+                  >
+                </li>
+              </ul>
+              <hr class="mb-4 mb-lg-0" />
+              <!-- Join / Sign in Button -->
+              <div
+                class="d-flex flex-column-reverse flex-lg-row justify-content-start align-items-lg-center align-items-start gap-3"
+              >
+                <a
+                  class="nav-link active d-flex align-items-center me-5"
+                  href="store-locator.html"
+                  ><i class="bi bi-geo-alt-fill icon-size me-2"></i
+                  ><span class="fw-semibold">Find a store</span></a
+                >
+                <div class="d-flex gap-3">
+                  <a
+                    href="sign-in.html"
+                    class="btn btn-light text-black fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4"
+                    >Sign in</a
+                  >
+                  <a
+                    href="join-now.html"
+                    class="btn btn-dark text-white fw-medium text-decoration-none border border-1 border-dark px-3 py-1 rounded-4 me-join-btn"
+                    >Join now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Delivery Page Section -->
+    <main>
+      <!-- Delivery Content - 1 -->
+      <div class="d-flex flex-row ms-2 gap-3">
+        <section>
+          <div class="d-flex flex-column my-4 align-items-center">
+            <!-- Delivery Button Group -->
+            <div class="mb-5 pb-5">
+              <div class="border border-1 border-success rounded-pill">
+                <div
+                  class="btn-group"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <!-- Delivery Button - 1 -->
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio1"
+                    autocomplete="off"
+                    checked
+                  />
+                  <label
+                    class="btn btn-outline-success delivery-button rounded-pill border-0 fw-bold"
+                    for="btnradio1"
+                    >Pickup</label
+                  >
+                  <!-- Delivery Button - 2 -->
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio2"
+                    autocomplete="off"
+                  />
+                  <label
+                    class="btn btn-outline-success delivery-button rounded-pill border-0 fw-bold"
+                    for="btnradio2"
+                    >Delivery</label
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Delivery Description -->
+            <div class="mt-5 pt-5 mb-5">
+              <h1 class="m-0 fw-bolder fs-3">Today deserves delivery</h1>
+            </div>
+            <div>
+              <p class="fw-semibold">
+                Enjoy Starbucks® delivery powered by DoorDash. For additional
+                help, visit
+                <a
+                  href="https://www.starbucks.com/stores-and-ordering/delivery/in-app/"
+                  class="link-success fw-semibold"
+                  >Delivery FAQs</a
+                >
+              </p>
+            </div>
+
+            <!-- Delivery Button -->
+            <div class="d-flex justify-content-end mt-3 mb-3">
+              <button
+                class="btn rounded-pill fw-semibold text-white fs-5 py-3 px-5 bg-success shadow-lg"
+              >
+                Get started
+              </button>
+            </div>
+
+            <!-- Delivery Description - 2 -->
+            <div>
+              <p class="delivery-description">
+                Menu limited. Menu pricing for delivery may be higher than
+                posted in stores or as marked. Additional fees may apply.
+                Delivery orders are not eligible for Starbucks® Rewards benefits
+                at this time.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Delivery Content - 2 -->
+        <section
+          class="d-flex justify-content-center align-items-center vw-100 bg-radius"
+        >
+          <div>
+            <img
+              src="assets/images/store-locator-img/delivery-hero.png"
+              class="delivery-img"
+              alt="delivery-hero"
+            />
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Script Section -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

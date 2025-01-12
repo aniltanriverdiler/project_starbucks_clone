@@ -455,6 +455,30 @@ a.nav-link.active:hover {
     text-decoration: none;
 }
 
+/* Store Locator Page Styles */
+.delivery-button {
+    padding: 5px 85px !important;
+}
+
+.delivery-description {
+    margin: 210px 24px 0 24px;
+    font-weight: 500;
+    color: #00000094;
+    text-align: center;
+    width: 600px;
+    height: 96px;
+}
+
+.delivery-img {
+    width: 696px;
+    height: 391px;
+}
+
+.bg-radius {
+    background: radial-gradient(270% 91% ellipse at center top,#006241 5%,#79bb6a 60%,#f1f8f5 0);
+} 
+
+
 
 
 
@@ -1086,6 +1110,10 @@ a.nav-link.active:hover {
         box-shadow: none;
     }
 }
+
+
+/* Store Locator CSS Media Queries */
+
 
 
 
