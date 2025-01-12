@@ -1113,6 +1113,71 @@ a.nav-link.active:hover {
 
 
 /* Store Locator CSS Media Queries */
+@media (max-width: 1025px) {
+    .delivery-description {
+        margin: 100px 24px 0 24px;
+        font-weight: 500;
+        color: #00000094;
+        text-align: center;
+        width: 600px;
+        height: 96px;
+    }
+}
+
+@media (max-width: 992px) {
+    .delivery-description {
+        margin: 100px 24px 0 24px;
+        font-weight: 500;
+        color: #00000094;
+        text-align: center;
+        width: 600px;
+        height: 96px;
+    }
+
+    .delivery-img {
+        width: 387px;
+        height: 218px;
+    }
+
+    .bg-radius {
+        background: radial-gradient(150% 123% ellipse at center top, #006241 10%, #79bb6a 60%, #f1f8f5 0);
+    } 
+}
+
+@media (max-width: 577px) {
+    .delivery-description {
+        margin: 100px 24px 0 24px;
+        font-weight: 500;
+        color: #00000094;
+        text-align: center;
+        width: 500px;
+        height: 96px;
+    }
+
+    .delivery-button {
+        padding: 5px 40px !important;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .delivery-description {
+        margin: 100px 24px 0 24px;
+        font-weight: 500;
+        color: #00000094;
+        text-align: center;
+        width: 330px;
+        height: 96px;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
