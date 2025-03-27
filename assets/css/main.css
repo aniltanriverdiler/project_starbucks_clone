@@ -1,0 +1,239 @@
+/* Home Page (Index Page) Styles */
+/* Gift Card-1 Styles */
+.margin-card {
+    margin: 2rem 9.5rem 2rem 9.5rem;
+}
+
+.bg-color {
+    background-color: #d40032;
+}
+
+.padding-custom {
+    padding: 32px 40px 32px 40px !important;
+} 
+
+.text-custom {
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Gift Card-2 Styles */
+.bg-color-1 {
+    background-color: #06ce8d;
+}
+
+.text-color {
+    color: #223531;
+}
+
+.text-color-1 {
+    color:#184a31;
+}
+
+.custom-border {
+    border: 1px solid hsl(164, 31%, 17%);
+}
+
+/* Gift Card-3 Styles */
+.bg-color-2 {
+    background-color: #8e0032;
+}
+
+/* Small Card Styles */
+.bg-color-3 {
+    background-color:#f1f0eb;
+}
+
+.text-color-2 {
+    color: #03644c;
+}
+
+.text-color-3 {
+    color: #4b866d;
+}
+
+.text-color-4 {
+    color: #0e724f;
+}
+
+.custom-border-2 {
+    border: 1px solid #0e724f;
+}
+
+.text-custom-2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Brand Description Styles */
+.brand-text {
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 600;
+}
+
+/* Gift Cards Page Styles */
+.gift-padding-1 {
+    padding: 56px 40px 40px 146px;
+}
+
+.gift-padding-2 {
+    padding: 0 55px 30px 146px;
+}
+
+.gift-padding-3 {
+    padding: 30px 55px 30px 146px;
+}
+
+.gift-padding-4 {
+    padding: 0 55px 0 146px;
+}
+
+.gift-cards {
+    width: 320px;
+    height: 200px;
+    box-shadow: 0 4px 1px #0000001c,0 0 2px #0000003d;
+    border-radius: 10px;
+}
+
+.gift-cards-text {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin: 0;
+}
+
+.credit-card-size {
+    width: 58px;
+    height: 54px;
+}
+
+.credit-card-custom {
+    margin: 0 55px 30px 146px;
+    padding: 1rem;
+    background-color: #ecebe9;
+    border-radius: 10px;
+}
+
+.received-custom {
+    padding: 40px 55px 20px 146px;
+    background-color: #d4e9e2;
+}
+
+.business-card-size {
+    width: 375px;
+    height: 250px;
+}
+
+.business-card-custom {
+    margin-top: 30px;
+    padding: 55px 55px 55px 146px;
+    background-color: #f9f9f9;
+}
+
+.business-card-text {
+    width: 375px;
+    height: 96px;
+    margin: 8px 0 40px 0;
+    color: #00000094;
+    font-weight: 500;
+}
+
+.description-custom {
+    padding: 56px 40px 40px 146px;
+    background-color: #ecebe9;
+}
+
+/* Sign-in Page Styles */
+.card-custom {
+    width: 550px;
+    height: 550px;
+    padding: 16px;
+    box-shadow: 0 2px 4px #00000012,0 4px 5px #0000000f,0 1px 10px #0000001a;
+}
+
+.form-check-input:checked {
+    background-color: #00754a !important;
+    border-color: #00754a !important;
+}
+
+.card-text-custom {
+    font-weight: 700;
+    color: #006241;
+    font-size: 17px;
+}
+
+.card-text-custom:hover {
+    text-decoration: none;
+}
+
+.aside-text {
+    width: 320px;
+    height: 80px;
+    text-align: center;
+}
+
+/* Join Now Page Styles */
+.aside-text-2 {
+    width: 450px;
+    height: 60px;
+    text-align: center;
+}
+
+.rewards-link {
+    color: rgb(0 0 0 / 60%);
+}
+
+.rewards-link:hover {
+    text-decoration: none;
+}
+
+.card-custom-2 {
+    width: 550px;
+    padding: 60px;
+    box-shadow: 0 2px 4px #00000012,0 4px 5px #0000000f,0 1px 10px #0000001a;
+}
+
+.join-accordion-text {
+    font-weight: 700;
+    color: #006241;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.join-accordion-text:hover {
+    text-decoration: none;
+}
+
+.check-button-link {
+    color: #006241;
+}
+
+.check-button-link:hover {
+    text-decoration: none;
+}
+
+/* Store Locator Page Styles */
+.delivery-button {
+    padding: 5px 85px !important;
+}
+
+.delivery-description {
+    margin: 210px 24px 0 24px;
+    font-weight: 500;
+    color: #00000094;
+    text-align: center;
+    width: 600px;
+    height: 96px;
+}
+
+.delivery-img {
+    width: 696px;
+    height: 391px;
+}
+
+.bg-radius {
+    background: radial-gradient(270% 91% ellipse at center top,#006241 5%,#79bb6a 60%,#f1f8f5 0);
+} 

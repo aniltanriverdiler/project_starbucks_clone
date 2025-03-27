@@ -1,0 +1,46 @@
+/* Navbar Styles */
+.img-starbucks {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-size {
+    font-size: 1.3rem;
+}
+
+.margin-custom {
+    margin-right: 5.7rem;
+}
+
+.navbar-brand.pe-2 {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-brand.pe-2:hover {
+    color: 	#00704A;
+}
+
+a.nav-link.active {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+a.nav-link.active:hover {
+    color: 	#00704A;
+}
+
+.text-spacing {
+    letter-spacing: 1.5px;
+}
+
+/* Fixed Bottom Bar: Location and Icon Styles */
+.bottom-bar-bg {
+    background-color: #1e3932;
+}
+
+.text-color {
+    color: #00ab61;
+}

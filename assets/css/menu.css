@@ -1,0 +1,53 @@
+/* Menu Page Styles */
+.me-join-btn {
+    margin-right: 0rem;
+}
+
+.menu-padding {
+     padding: 16px 146px;
+}
+
+.menu-navbar-text {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-list-padding {
+    padding: 40px 200px 40px 146px;
+}
+
+.menu-text {
+    font-weight: 500;
+    opacity: 0.75;
+    font-size: 1.1rem;
+}
+
+.img-size {
+    width: 112px;
+    height: 112px;
+} 
+
+/* Menu / Featured Page Styles */
+.heading-text {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #1e3932;
+}
+
+/* Menu / Featured Page Gift Card Styles */
+.text-custom-3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bg-color-4 {
+    background-color: #1e3932;
+}
+
+/* Menu / Favorites Page Styles */
+.favorites-img-size {
+    width: 200px;
+    height: 213px;
+}
