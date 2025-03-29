@@ -1,585 +1,605 @@
 /* Home Page (Index Page) CSS Media Queries */
 @media (max-width: 768px) {
-    .margin-card {
-        margin: 2rem 0 2rem 0;
-    }
+  .margin-card {
+    margin: 2rem 0 2rem 0;
+  }
 
-    .text-custom {
-        font-size: 24px;
-        letter-spacing: 1px;
-        font-weight: 600;
-        line-height: 1.2;
-    }
+  .text-custom {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
 
-    .padding-custom {
-        padding: 32px 16px 32px 16px !important;
-    }
+  .padding-custom {
+    padding: 32px 16px 32px 16px !important;
+  }
 }
 
 /* Navbar Link CSS Media Queries */
 @media (min-width: 991px) {
-    .navbar-brand.pe-2::before {
-        content: "";
-        position: absolute;
-        bottom: -106%; 
-        left: 45%; 
-        transform: translateX(-50%); 
-        width: 0; 
-        height: 5px; 
-        background-color: #00704A; 
-        visibility: hidden; 
-        transition: 0.3s ease-in-out; 
-    }
-    
-    .navbar-brand.pe-2:hover::before {
-        width: 93%; 
-        visibility: visible;
-    }
+  .navbar-brand.pe-2::before {
+    content: "";
+    position: absolute;
+    bottom: -106%;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 5px;
+    background-color: #00704a;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
 
-    .navbar-brand.pe-2:target:before {
-        width: 93%; 
-        visibility: visible; 
-    }
+  .navbar-brand.pe-2:hover::before {
+    width: 93%;
+    visibility: visible;
+  }
+
+  .navbar-brand.pe-2:target:before {
+    width: 93%;
+    visibility: visible;
+  }
 }
 
 @media (min-width: 991px) {
-    a.nav-link.active::before {
-        content: "";
-        position: absolute;
-        bottom: -107%; 
-        left: 55%; 
-        transform: translateX(-50%); 
-        width: 0; 
-        height: 5px; 
-        background-color: #00704A; 
-        visibility: hidden; 
-        transition: 0.3s ease-in-out; 
-    }
+  a.nav-link.active::before {
+    content: "";
+    position: absolute;
+    bottom: -107%;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 5px;
+    background-color: #00704a;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
 
-    a.nav-link.active:hover::before {
-        width: 100%; 
-        visibility: visible; 
-    }
+  a.nav-link.active:hover::before {
+    width: 100%;
+    visibility: visible;
+  }
 
-    a.nav-link.active:target:before {
-        width: 100%; 
-        visibility: visible; 
-    }
+  a.nav-link.active:target:before {
+    width: 100%;
+    visibility: visible;
+  }
 }
 
 @media (max-width: 992px) {
-    .margin-card {
-        margin: 2rem 0 2rem 0;
-    }
+  .margin-card {
+    margin: 2rem 0 2rem 0;
+  }
 
-    .text-custom {
-        font-size: 24px;
-        letter-spacing: 1px;
-        font-weight: 600;
-        line-height: 1.2;
-    }
+  .text-custom {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
 
-    .padding-custom {
-        padding: 32px 24px 32px 24px !important;
-    }
+  .padding-custom {
+    padding: 32px 24px 32px 24px !important;
+  }
 }
 
 @media (max-width: 1200px) {
-    .margin-card {
-        margin: 2rem 0 2rem 0;
-    }
+  .margin-card {
+    margin: 2rem 0 2rem 0;
+  }
 
-    .text-custom {
-        font-size: 24px;
-        letter-spacing: 1px;
-        font-weight: 600;
-        line-height: 1.2;
-    }
+  .text-custom {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
 
-    .padding-custom {
-        padding: 32px 40px 32px 40px !important;
-    }
+  .padding-custom {
+    padding: 32px 40px 32px 40px !important;
+  }
 }
-
 
 /* Footer CSS Media Queries */
 @media (max-width: 768px) {
-    .accordion-fs {
-        font-size: 1.1rem;
-    }
+  .accordion-fs {
+    font-size: 1.1rem;
+  }
 }
 
 @media (max-width: 1024px) {
-    .row-display {
-        display: none !important;
-    }
+  .row-display {
+    display: none !important;
+  }
 
-    .accordion-display {
-        display: block;
-    }
+  .accordion-display {
+    display: block;
+  }
 }
 
 @media (min-width: 1025px) {
-    .accordion-display {
-        display: none;
-    }
+  .accordion-display {
+    display: none;
+  }
 }
 
 @media (max-width: 1200px) {
-    .footer-padding {
-        padding: 0 1.5rem;
-    }
+  .footer-padding {
+    padding: 0 1.5rem;
+  }
 
-    .margin-custom {
-        margin-right: 0rem;
-    }
+  .margin-custom {
+    margin-right: 0rem;
+  }
 }
-
 
 /* Menu Page Media Queries */
 /* Menu Navbar Styles */
 @media (min-width: 991px) {
-    .menu-navbar-text::before {
-        content: "";
-        position: absolute;
-        bottom: -45%; 
-        left: 50%;
-        transform: translateX(-50%); 
-        width: 0; 
-        height: 1px; 
-        background-color: rgb(0 0 0 / 87%); 
-        visibility: hidden; 
-        transition: 0.3s ease-in-out; 
-    }
+  .menu-navbar-text::before {
+    content: "";
+    position: absolute;
+    bottom: -45%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: rgb(0 0 0 / 87%);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
 
-    .menu-navbar-text:hover::before {
-        width: 100%; 
-        visibility: visible; 
-    }
+  .menu-navbar-text:hover::before {
+    width: 100%;
+    visibility: visible;
+  }
 
-    .menu-navbar-text:target:before {
-        width: 100%; 
-        visibility: visible; 
-    }
+  .menu-navbar-text:target:before {
+    width: 100%;
+    visibility: visible;
+  }
 }
 
 @media (max-width: 1024px) {
-    .menu-list-display {
-        display: none;
-    }
+  .menu-list-display {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
-    .menu-list-display {
-        display: block;
-    }
+  .menu-list-display {
+    display: block;
+  }
 
-    .menu-list-padding {
-        padding: 40px 200px 40px 146px;
-    } 
+  .menu-list-padding {
+    padding: 40px 200px 40px 146px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .img-size {
-        width: 72px;
-        height: 72px;
-    } 
-  
-    .menu-padding {
-    padding: 16px 122px;
-    }
+  .img-size {
+    width: 72px;
+    height: 72px;
+  }
 
-    .menu-list-padding {
-        padding: 40px 0 40px 122px;
-   }
+  .menu-padding {
+    padding: 16px 122px;
+  }
+
+  .menu-list-padding {
+    padding: 40px 0 40px 122px;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
-    .img-size {
-        width: 72px;
-        height: 72px;
-    } 
+  .img-size {
+    width: 72px;
+    height: 72px;
+  }
 
-    .menu-padding {
-        padding: 16px 24px;
-    }
+  .menu-padding {
+    padding: 16px 24px;
+  }
 
-    .menu-list-padding {
-        padding: 40px 0 40px 24px;
-    }
+  .menu-list-padding {
+    padding: 40px 0 40px 24px;
+  }
 }
- 
+
 @media (min-width: 1024px) and (max-width: 1024px) {
-    .menu-img-padding {
-        padding: 0 80px 0 110px !important;
-   }
+  .menu-img-padding {
+    padding: 0 80px 0 110px !important;
+  }
 
-    .img-size {
-        width: 112px;
-        height: 112px;
-   } 
+  .img-size {
+    width: 112px;
+    height: 112px;
+  }
 }
-
 
 /* Featured Page CSS Media Queries */
 @media (max-width: 992px) {
-    .heading-text {
-        font-weight: 700;
-        font-size: 28px;
-        letter-spacing: 2px;
-        color: #1e3932;
-    }
+  .heading-text {
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #1e3932;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
-    .custom-col {
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
-    }
+  .custom-col {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
 }
 
-
 /* Rewards Page CSS Media Queries */
-@media (min-width: 768px) and (max-width: 1024px) {  
-    .green-menu-custom {
-        padding: 0 122px;
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .green-menu-custom {
+    padding: 0 122px;
+  }
 
-    .star-text-padding {
-        padding: 160px 24px;
-    }
+  .star-text-padding {
+    padding: 160px 24px;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
-    .green-menu-custom {
-        padding: 0 24px;
-    }
+  .green-menu-custom {
+    padding: 0 24px;
+  }
 
-    .star-text-padding {
-        padding: 300px 24px;
-    }
+  .star-text-padding {
+    padding: 300px 24px;
+  }
 
-    .bg-star {
-        background-color: rgb(212, 233, 226);
-        background-image: url(../images/rewards-img/bg-star-2.jpg);
-        background-position: 100%;
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-    }
+  .bg-star {
+    background-color: rgb(212, 233, 226);
+    background-image: url(../images/rewards-img/bg-star-2.jpg);
+    background-position: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
 
-    .mobile-text-1 {
-        width: 400px;
-        height: min-content;
-    }
+  .mobile-text-1 {
+    width: 400px;
+    height: min-content;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 768px) {
-    .star-text-padding {
-        padding: 90px 24px;
-    }
+  .star-text-padding {
+    padding: 90px 24px;
+  }
 
-    .bg-star {
-        background-color: rgb(212, 233, 226);
-        background-image: url(../images/rewards-img/bg-star.png);
-        background-position: 50%;
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        width: 100%;
-    }
+  .bg-star {
+    background-color: rgb(212, 233, 226);
+    background-image: url(../images/rewards-img/bg-star.png);
+    background-position: 50%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
 
-    .mobile-text-1 {
-        width: 225px;
-        height: min-content;
-    }  
+  .mobile-text-1 {
+    width: 225px;
+    height: min-content;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 575px) {
-    .mobile-text-1 {
-        width: 230px;
-        height: min-content;
-    }
+  .mobile-text-1 {
+    width: 230px;
+    height: min-content;
+  }
 
-    .breakfast-text {
-        width: 358px;
-        height: 57px;
-        text-align: center;
-    }
+  .breakfast-text {
+    width: 358px;
+    height: 57px;
+    text-align: center;
+  }
 
-    .breakfast-text-1 {
-        width: 358px;
-        height: 63px;
-        text-align: center;
-    }
+  .breakfast-text-1 {
+    width: 358px;
+    height: 63px;
+    text-align: center;
+  }
 
-    .breakfast-img {
-        width: 375px;
-        height: 211px;
-    }
+  .breakfast-img {
+    width: 375px;
+    height: 211px;
+  }
 }
 
 @media (min-width: 768px) {
-    .breakfast-text {
-        width: 343px;
-        height: 108px;
-    }
+  .breakfast-text {
+    width: 343px;
+    height: 108px;
+  }
 
-    .breakfast-text-1 {
-        width: 343px;
-        height: 72px;
-    }
+  .breakfast-text-1 {
+    width: 343px;
+    height: 72px;
+  }
 
-    .breakfast-img {
-        width: 375px;
-        height: 211px;
-    }
+  .breakfast-img {
+    width: 375px;
+    height: 211px;
+  }
 }
 
 @media (max-width: 576px) {
-    .breakfast-img-container {
-        overflow: hidden;
-    }
+  .breakfast-img-container {
+    overflow: hidden;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 576px) {
-    .breakfast-text {
-        width: 544px;
-        height: 57px;
-        text-align: center;
-    }
+  .breakfast-text {
+    width: 544px;
+    height: 57px;
+    text-align: center;
+  }
 
-    .breakfast-text-1 {
-        width: 544px;
-        height: 42px;
-        text-align: center;
-    }
+  .breakfast-text-1 {
+    width: 544px;
+    height: 42px;
+    text-align: center;
+  }
 }
-
 
 /* Gift Cards Page CSS Media Queries */
 @media (max-width: 576px) {
-    .gift-padding-1 {
-        padding: 16px 16px;
-    }
+  .gift-padding-1 {
+    padding: 16px 16px;
+  }
 
-    .gift-padding-2 {
-        padding: 8px 16px;
-    }
+  .gift-padding-2 {
+    padding: 8px 16px;
+  }
 
-    .gift-padding-3 {
-        padding: 16px 16px;
-    }
+  .gift-padding-3 {
+    padding: 16px 16px;
+  }
 
-    .gift-padding-4 {
-        padding: 0 16px;
-    }
+  .gift-padding-4 {
+    padding: 0 16px;
+  }
 
-    .gift-cards-text {
-        font-weight: 700;
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        letter-spacing: 1.8px;
-        margin: 0;
-    }
+  .winter-padding {
+    padding: 16px 16px 0;
+  }
 
-    .credit-card-custom {
-        margin: 16px;
-        padding: 1rem;
-        background-color: #ecebe9;
-        border-radius: 10px;
-    }
+  .holiday-padding {
+    padding: 0 16px 0;
+  }
 
-    .received-custom {
-        padding: 24px 16px;
-        background-color: #d4e9e2;
-    }
+  .red-cup-padding {
+    padding: 0 16px 16px;
+  }
 
-    .gift-cards {
-        width: 155px;
-        height: 98px;
-        box-shadow: 0 4px 1px #0000001c,0 0 2px #0000003d;
-        border-radius: 10px;
-    }
+  .gift-cards-text {
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin: 0;
+  }
 
-    .business-card-custom {
-        margin-top: 30px;
-        padding: 24px 182px 24px 16px;
-        background-color: #f9f9f9;
-    }
+  .credit-card-custom {
+    margin: 16px;
+    padding: 1rem;
+    background-color: #ecebe9;
+    border-radius: 10px;
+  }
 
-    .description-custom {
-        padding: 24px 16px;
-        background-color: #ecebe9;
-    }
+  .received-custom {
+    padding: 24px 16px;
+    background-color: #d4e9e2;
+  }
 
-    .gift-cards {
-        width: 155px;
-        height: 98px;
-        box-shadow: 0 4px 1px #0000001c,0 0 2px #0000003d;
-        border-radius: 10px;
-    }
+  .gift-card-2 {
+    width: 155px;
+    height: 98px;
+    box-shadow: 0 4px 1px #0000001c, 0 0 2px #0000003d;
+    border-radius: 10px;
+  }
+
+  .business-card-custom {
+    margin-top: 30px;
+    padding: 24px 182px 24px 16px;
+    background-color: #f9f9f9;
+  }
+
+  .description-custom {
+    padding: 24px 16px;
+    background-color: #ecebe9;
+  }
+
+  .gift-card-2 {
+    width: 155px;
+    height: 98px;
+    box-shadow: 0 4px 1px #0000001c, 0 0 2px #0000003d;
+    border-radius: 10px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 1024px) {
-    .gift-padding-1 {
-        padding: 16px 120px;
-    }
+  .gift-padding-1 {
+    padding: 30px 120px;
+  }
 
-    .gift-padding-2 {
-        padding: 8px 16px 8px 120px;
-    }
+  .gift-padding-2 {
+    padding: 8px 16px 8px 120px;
+  }
 
-    .gift-padding-3 {
-        padding: 16px 16px 16px 120px;
-    }
+  .gift-padding-3 {
+    padding: 16px 16px 16px 120px;
+  }
 
-    .gift-padding-4 {
-        padding: 0 16px 0px 120px;
-    }
+  .gift-padding-4 {
+    padding: 0 16px 0px 120px;
+  }
 
-    .gift-cards-text {
-        font-weight: 700;
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        letter-spacing: 1.8px;
-        margin: 0;
-    }
+  .winter-padding {
+    padding: 16px 16px 16px 120px;
+  }
 
-    .credit-card-custom {
-        margin: 16px 16px 16px 120px;
-        padding: 1rem;
-        background-color: #ecebe9;
-        border-radius: 10px;
-    }
+  .holiday-padding {
+    padding: 0 16px 16px 120px;
+  }
 
-    .received-custom {
-        padding: 24px 16px 24px 120px;
-        background-color: #d4e9e2;
-    }
+  .red-cup-padding {
+    padding: 0 16px 16px 120px;
+  }
 
-    .gift-cards {
-        width: 155px;
-        height: 98px;
-        box-shadow: 0 4px 1px #0000001c,0 0 2px #0000003d;
-        border-radius: 10px;
-    }
+  .gift-cards-text {
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin: 0;
+  }
 
-    .business-card-custom {
-        margin-top: 30px;
-        padding: 24px 182px 24px 16px;
-        background-color: #f9f9f9;
-    }
+  .credit-card-custom {
+    margin: 16px 16px 16px 120px;
+    padding: 1rem;
+    background-color: #ecebe9;
+    border-radius: 10px;
+  }
 
-    .description-custom {
-        padding: 24px 16px;
-        background-color: #ecebe9;
-    }
+  .received-custom {
+    padding: 24px 16px 24px 120px;
+    background-color: #d4e9e2;
+  }
 
-    .gift-cards {
-        width: 195px;
-        height: 122px;
-        box-shadow: 0 4px 1px #0000001c,0 0 2px #0000003d;
-        border-radius: 10px;
-    }
+  .gift-card-2 {
+    width: 155px;
+    height: 98px;
+    box-shadow: 0 4px 1px #0000001c, 0 0 2px #0000003d;
+    border-radius: 10px;
+  }
+
+  .business-card-custom {
+    margin-top: 30px;
+    padding: 24px 182px 24px 16px;
+    background-color: #f9f9f9;
+  }
+
+  .description-custom {
+    padding: 24px 16px;
+    background-color: #ecebe9;
+  }
+
+  .gift-card-2 {
+    width: 195px;
+    height: 122px;
+    box-shadow: 0 4px 1px #0000001c, 0 0 2px #0000003d;
+    border-radius: 10px;
+  }
 }
-
 
 /* Sign in Page CSS Media Queries */
 @media (max-width: 767px) {
-    .card {
-      border: none !important;
-    }
-    
-    .card-custom {
-        width: 550px;
-        height: 550px;
-        padding: 16px;
-        box-shadow: none;
-    }
-}
+  .card {
+    border: none !important;
+  }
 
+  .card-custom {
+    width: 550px;
+    height: 550px;
+    padding: 16px;
+    box-shadow: none;
+  }
+}
 
 /* Join Now Page CSS Media Queries */
 @media (max-width: 767px) {
-    .card-custom-2 {
-        width: 550px;
-        padding: 20px;
-        box-shadow: none;
-    }
+  .card-custom-2 {
+    width: 550px;
+    padding: 20px;
+    box-shadow: none;
+  }
 }
 
 @media (max-width: 575px) {
-    .aside-text-2 {
-        width: 358px;
-        height: 70px;
-        padding-left: 10px;
-        text-align: start;
-    }
+  .aside-text-2 {
+    width: 358px;
+    height: 70px;
+    padding-left: 10px;
+    text-align: start;
+  }
 
-    .card-custom-2 {
-        width: 550px;
-        height: 550px;
-        padding: 1px;
-        box-shadow: none;
-    }
+  .card-custom-2 {
+    width: 550px;
+    height: 550px;
+    padding: 1px;
+    box-shadow: none;
+  }
 }
-
 
 /* Store Locator CSS Media Queries */
 @media (max-width: 1025px) {
-    .delivery-description {
-        margin: 100px 24px 0 24px;
-        font-weight: 500;
-        color: #00000094;
-        text-align: center;
-        width: 600px;
-        height: 96px;
-    }
+  .delivery-description {
+    margin: 100px 24px 0 24px;
+    font-weight: 500;
+    color: #00000094;
+    text-align: center;
+    width: 600px;
+    height: 96px;
+  }
 }
 
 @media (max-width: 992px) {
-    .delivery-description {
-        margin: 100px 24px 0 24px;
-        font-weight: 500;
-        color: #00000094;
-        text-align: center;
-        width: 600px;
-        height: 96px;
-    }
+  .delivery-description {
+    margin: 100px 24px 0 24px;
+    font-weight: 500;
+    color: #00000094;
+    text-align: center;
+    width: 600px;
+    height: 96px;
+  }
 
-    .delivery-img {
-        width: 387px;
-        height: 218px;
-    }
+  .delivery-img {
+    width: 387px;
+    height: 218px;
+  }
 
-    .bg-radius {
-        background: radial-gradient(150% 123% ellipse at center top, #006241 10%, #79bb6a 60%, #f1f8f5 0);
-    } 
+  .bg-radius {
+    background: radial-gradient(
+      150% 123% ellipse at center top,
+      #006241 10%,
+      #79bb6a 60%,
+      #f1f8f5 0
+    );
+  }
 }
 
 @media (max-width: 577px) {
-    .delivery-description {
-        margin: 100px 24px 0 24px;
-        font-weight: 500;
-        color: #00000094;
-        text-align: center;
-        width: 500px;
-        height: 96px;
-    }
+  .delivery-description {
+    margin: 100px 24px 0 24px;
+    font-weight: 500;
+    color: #00000094;
+    text-align: center;
+    width: 500px;
+    height: 96px;
+  }
 
-    .delivery-button {
-        padding: 5px 40px !important;
-    }
-    
+  .delivery-button {
+    padding: 5px 40px !important;
+  }
 }
 
 @media (max-width: 575px) {
-    .delivery-description {
-        margin: 100px 24px 0 24px;
-        font-weight: 500;
-        color: #00000094;
-        text-align: center;
-        width: 330px;
-        height: 96px;
-    }
+  .delivery-description {
+    margin: 100px 24px 0 24px;
+    font-weight: 500;
+    color: #00000094;
+    text-align: center;
+    width: 330px;
+    height: 96px;
+  }
 }
