@@ -85,3 +85,26 @@ document.querySelectorAll(".wrapper").forEach((wrapper) => {
   wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
   wrapper.addEventListener("mouseleave", autoPlay);
 });
+
+// Full Responsive Rewards Tablist
+const handleTabs = (event, breakfast) => {
+  const tabContent = document.querySelectorAll(".tabcontent");
+  const tabLinks = document.querySelectorAll(".tablinks");
+
+  tabContent.forEach((content) => {
+    content.classList.remove("active");
+  });
+
+  tabLinks.forEach((link) => {
+    link.classList.remove("active");
+  });
+
+  document.getElementById(breakfast).classList.add("active");
+  event.currentTarget.classList.add("active");
+};
+
+window.handleTabs = handleTabs;
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector(".tablinks").click();
+});

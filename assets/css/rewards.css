@@ -1,130 +1,186 @@
 /* Rewards Page Styles */
 .green-menu-custom {
-    background-color: #1e3932;
-    box-shadow: 0 4px 4px 0 #0000001f,0 0 2px 0 #0000003d;
-    height: 50px;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 3;
-    padding: 0 146px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: #1e3932;
+  box-shadow: 0 4px 4px 0 #0000001f, 0 0 2px 0 #0000003d;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  padding: 0 146px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .green-menu-text {
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #fff;
-    font-size: 14px;
-    letter-spacing: 1.5px;
-    margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  margin: 0;
 }
 
 .bg-star {
-    background-color: rgb(212, 233, 226);
-    background-image: url(../images/rewards-img/bg-star.png);
-    background-position: 50%;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    width: 100%;
+  background-color: rgb(212, 233, 226);
+  background-image: url(../images/rewards-img/bg-star.png);
+  background-position: 50%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  width: 100%;
 }
-  
+
 .star-text-padding {
-    padding: 275px 146px;
+  padding: 275px 146px;
 }
 
 .join-hover:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .icon-size-1 {
-    width: 48px;
-    height: 48px;
+  width: 48px;
+  height: 48px;
 }
 
 .bg-rewards {
-    background-color: hsl(160deg 32% 87% / 33%);
+  background-color: hsl(160deg 32% 87% / 33%);
 }
 
 .breakfast-bg {
-    background-color: #d4e9e2;
-    box-shadow: inset 0 7px 9px -7px #00000024;
+  background-color: #d4e9e2;
+  box-shadow: inset 0 7px 9px -7px #00000024;
 }
 
 .breakfast-img {
-    width: 576px;
-    height: 324px;
+  width: 576px;
+  height: 324px;
+}
+
+/* Tablist Animation Style */
+.tab-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.tablinks {
+  position: relative;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.tablinks.active {
+  color: #00754a;
+}
+
+.tablinks::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -17px;
+  width: 0;
+  height: 5px;
+  background-color: #00754a;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.tablinks.active::after {
+  left: -6px;
+  width: 75px;
+}
+
+/* Section content animation */
+.tabcontent {
+  opacity: 0;
+  transform: translateX(30px);
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out,
+    max-height 0.5s ease-in-out;
+}
+
+.tabcontent.active {
+  opacity: 1;
+  transform: translateX(0);
+  max-height: 500px;
 }
 
 .icon-size-2 {
-    width: 112px;
-    height: 112px;
+  width: 112px;
+  height: 112px;
 }
 
 .bg-payment {
-    background-color: #f1f0eb;
+  background-color: #f1f0eb;
 }
 
 .icon-size-3 {
-    width: 112px;
-    height: 158px;
+  width: 112px;
+  height: 158px;
 }
 
 .icon-size-4 {
-    width: 190px;
-    height: 85px;
+  width: 190px;
+  height: 85px;
 }
 
 .bg-texture {
-    position: relative;
-    padding: 32px;
-    z-index: 1;
+  position: relative;
+  padding: 32px;
+  z-index: 1;
 }
 
 .bg-texture::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('../images/rewards-img/texture.png') no-repeat center center;
-    background-size: cover;
-    z-index: -2;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/rewards-img/texture.png") no-repeat center center;
+  background-size: cover;
+  z-index: -2;
 }
 
 .bg-texture::after {
-    content: "";
-    position: absolute;
-    top: 32px;  
-    left: 32px;
-    width: calc(100% - 64px);  
-    height: calc(100% - 64px);
-    background-color: #d4e9e2;  
-    z-index: -1;
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: calc(100% - 64px);
+  height: calc(100% - 64px);
+  background-color: #d4e9e2;
+  z-index: -1;
 }
- 
-.carousel-indicators [data-bs-target] { 
-    background-color: black !important;
+
+.carousel-indicators [data-bs-target] {
+  background-color: black !important;
 }
-      
+
 .carousel-indicators .active {
-    background-color: black !important;
+  background-color: black !important;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: invert(100%);
+  filter: invert(100%);
 }
 
 .mobile-text {
-    width: 200px;
-    height: min-content;
+  width: 200px;
+  height: min-content;
 }
 
 .mobile-text-1 {
-    width: 300px;
-    height: min-content;
+  width: 300px;
+  height: min-content;
 }

@@ -255,71 +255,141 @@
             <h3 class="m-0 fw-bold">Get your favorites for free</h3>
           </div>
 
-        <!-- Buttons Section -->
+        <div class="container">
+          <div class="tab">
+          <!-- Buttons Section -->
           <div class="d-flex flex-row gap-2 gap-sm-5 justify-content-center pb-3">
             <!-- Button - 1 Section -->
-            <button class="border-0 bg-transparent p-0 d-flex align-items-end gap-0">
+            <button class="tablinks border-0 bg-transparent p-0 d-flex align-items-end gap-0" onclick="handleTabs(event, `breakfast-1`)">
               <span class="fw-semibold fs-2">
                 25
               </span>
-              <span class="text-warning fs-5">
+              <span class="text-warning fs-5 mb-1">
                 ★
               </span>
             </button>
             <!-- Button - 2 Section -->
-            <button class="border-0 bg-transparent p-0 d-flex align-items-end gap-0">
+            <button class="tablinks border-0 bg-transparent p-0 d-flex align-items-end gap-0" onclick="handleTabs(event, `breakfast-2`)">
               <span class="fw-semibold fs-2">
                 100
               </span>
-              <span class="text-warning fs-5">
+              <span class="text-warning fs-5 mb-1">
                 ★
               </span>
             </button>
             <!-- Button - 3 Section -->
-            <button class="border-0 bg-transparent p-0 d-flex align-items-end gap-0">
+            <button class="tablinks border-0 bg-transparent p-0 d-flex align-items-end gap-0" onclick="handleTabs(event, `breakfast-3`)">
               <span class="fw-semibold fs-2">
                 200
               </span>
-              <span class="text-warning fs-5">
+              <span class="text-warning fs-5 mb-1">
                 ★
               </span>
             </button>
             <!-- Button - 4 Section -->
-            <button class="border-0 bg-transparent p-0 d-flex align-items-end gap-0">
+            <button class="tablinks border-0 bg-transparent p-0 d-flex align-items-end gap-0" onclick="handleTabs(event, `breakfast-4`)">
               <span class="fw-semibold fs-2">
                 300
               </span>
-              <span class="text-warning fs-5">
+              <span class="text-warning fs-5 mb-1">
                 ★
               </span>
             </button>
             <!-- Button - 5 Section -->
-            <button class="border-0 bg-transparent p-0 d-flex align-items-end gap-0">
+            <button class="tablinks border-0 bg-transparent p-0 d-flex align-items-end gap-0" onclick="handleTabs(event, `breakfast-5`)">
               <span class="fw-semibold fs-2">
                 400
               </span>
-              <span class="text-warning fs-5">
+              <span class="text-warning fs-5 mb-1">
                 ★
               </span>
             </button>
+           </div>
           </div>
         </div>
       </div>
 
-      <!-- Breakfast Section -->
-       <div class="breakfast-bg">
-        <div class="container-md text-center px-lg-5 py-4">
-         <div class="d-md-flex flex-row gap-5 justify-content-center">
-           <div class="breakfast-img-container">
-            <img src="assets/images/rewards-img/breakfast.png" class="breakfast-img" alt="breakfast">
+      <!-- Breakfast - 1 Section -->
+      <div id="breakfast-1" class="tabcontent">
+        <div class="breakfast-bg">
+         <div class="container-md text-center px-lg-5 py-4">
+          <div class="d-md-flex flex-row gap-3 justify-content-center">
+            <div class="breakfast-img-container">
+             <img src="assets/images/rewards-img/breakfast-1.png" class="breakfast-img" alt="breakfast">
+            </div>
+            <div class="text-start p-0 pt-3 mt-md-5">
+             <h4 class="lh-base fw-bold text-center text-md-start mb-md-4">Customize your drink</h4>
+             <p class="m-md-0 fw-medium breakfast-text-1">Make your drink just right with an extra espresso shot or a dash of your favorite syrup.</p>
            </div>
-           <div class="text-start p-0">
-            <h4 class="lh-base fw-bold pb-2 mb-4 mb-md-0 breakfast-text">Handcrafted drink (Cold Brew, lattes and more) or hot breakfast</h4>
-            <p class="m-md-0 breakfast-text-1">Turn good mornings great with a delicious handcrafted drink of your choice, breakfast sandwich or oatmeal on us.</p>
           </div>
          </div>
         </div>
        </div>
+      <!-- Breakfast - 2 Section -->
+      <div id="breakfast-2" class="tabcontent">
+        <div class="breakfast-bg">
+         <div class="container-md text-center px-lg-5 py-4">
+          <div class="d-md-flex flex-row gap-5 justify-content-center">
+            <div class="breakfast-img-container">
+             <img src="assets/images/rewards-img/breakfast-2.png" class="breakfast-img" alt="breakfast">
+            </div>
+            <div class="text-start p-0 mt-md-4">
+             <h4 class="lh-base fw-bold pb-2 mb-md-0 breakfast-text">Brewed hot or iced coffee or tea, bakery item, packaged snack and more</h4>
+             <p class="m-0 fw-medium breakfast-text-1">Treat yourself to an iced coffee, buttery croissant, bag of chips and more.</p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div> 
+      <!-- Breakfast - 3 Section -->
+      <div id="breakfast-3" class="tabcontent">
+       <div class="breakfast-bg">
+        <div class="container-md text-center px-lg-5 py-4">
+         <div class="d-md-flex flex-row gap-5 justify-content-center">
+           <div class="breakfast-img-container">
+            <img src="assets/images/rewards-img/breakfast-3.png" class="breakfast-img" alt="breakfast">
+           </div>
+           <div class="text-start p-0">
+            <h4 class="lh-base fw-bold pb-2 mb-4 mb-md-0 breakfast-text">Handcrafted drink (Cold Brew, lattes and more) or hot breakfast</h4>
+            <p class="m-md-0 fw-medium breakfast-text-1">Turn good mornings great with a delicious handcrafted drink of your choice, breakfast sandwich or oatmeal on us.</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- Breakfast - 4 Section -->
+      <div id="breakfast-4" class="tabcontent">
+        <div class="breakfast-bg">
+         <div class="container-md text-center px-lg-5 py-4">
+          <div class="d-md-flex flex-row gap-5 justify-content-center">
+            <div class="breakfast-img-container">
+             <img src="assets/images/rewards-img/breakfast-4.png" class="breakfast-img" alt="breakfast">
+            </div>
+            <div class="text-start p-0">
+             <h4 class="lh-base fw-bold mb-md-0 mt-4 breakfast-text">Sandwich, protein box or at-home coffee</h4>
+             <p class="m-md-0 fw-medium breakfast-text-1">Enjoy a PM pick-me-up with a lunch sandwich, protein box or a bag of coffee—including Starbucks VIA Instant®.</p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      <!-- Breakfast - 5 Section -->
+      <div id="breakfast-5" class="tabcontent">
+        <div class="breakfast-bg">
+         <div class="container-md text-center px-lg-5 py-4">
+          <div class="d-md-flex flex-row gap-5 justify-content-center">
+            <div class="breakfast-img-container">
+             <img src="assets/images/rewards-img/breakfast-5.png" class="breakfast-img" alt="breakfast">
+            </div>
+            <div class="text-start p-0">
+             <h4 class="lh-base fw-bold pb-2 mt-4 mb-md-0 breakfast-text">Select Starbucks® merchandise</h4>
+             <p class="m-md-0 fw-medium breakfast-text-1">Take home a signature cup, drink tumbler or your choice of coffee merch up to $20.</p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
     </section>
 
     <!-- Endless Extras Section -->
@@ -1482,6 +1552,7 @@
     </footer>
 
     <!--  Script Section -->
+    <script src="assets/js/main.js"></script>  
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
